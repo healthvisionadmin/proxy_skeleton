@@ -1,0 +1,6 @@
+cache
+log
+/log/*
+log/app.log
+upload/*
+vendor

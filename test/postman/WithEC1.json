@@ -1,0 +1,2214 @@
+{
+	"id": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+	"name": "SOA.HEALTVISION.DE",
+	"description": "Simply change baseURL inside exported JSON-File via Search&Replace\n\nfor example\nchange\nhttp://soa.healthvision.de/test/proto1/public\nto \nhttp://185.10.195.66/test/hvaa2/public\n\n",
+	"order": [],
+	"folders": [
+		{
+			"id": "e4de90d2-e48c-0ce9-29d8-369f802a8722",
+			"name": "Course And Courses",
+			"description": "",
+			"order": [
+				"0938b343-7a85-f452-9555-aed03b0d3934",
+				"a5d01e3f-68c6-ada4-290b-b8d44c5754ea",
+				"a64d502f-6731-76f7-9471-84583f351e89",
+				"9e5dad9c-1744-b80f-b862-a80ab7e0eb9a",
+				"34b33fbe-ceae-48e6-78db-f3f83c906d03"
+			],
+			"owner": 0
+		},
+		{
+			"id": "27fabb25-6b5e-5c1b-1ba6-c75104b055a5",
+			"name": "Dashboard - Meine Aktivitäten",
+			"description": "",
+			"order": [
+				"ab4f7990-002c-dfc4-455e-d0b7cef2faa2",
+				"73a5ea04-ec0b-d91a-aa5a-39a76a84f640",
+				"fa3d2bf5-1e28-195d-29e2-46d25ed4fe9c",
+				"8001c432-c2c7-569f-7cf3-9addc35523b9",
+				"cc639fec-e6f9-34a2-e83b-50083a564325",
+				"90c22fa7-6c32-0ea1-619e-e949e8cd653d",
+				"f0982ed0-414c-a17e-9609-7705a4e7c5f0"
+			],
+			"owner": 0
+		},
+		{
+			"id": "97b19662-da92-6df1-1117-566875e99971",
+			"name": "Encrypted Endpoint",
+			"description": "",
+			"order": [
+				"ec977da7-a620-ca72-1e1c-4fc812cb00d0",
+				"5f3a54f7-eb68-931e-7aa6-4fba1d5a9dcf",
+				"d0f8aa44-cc27-86a6-15c7-120a97cd964c",
+				"41240325-97a8-8e36-e80c-907be93965b0",
+				"8fb816e8-0019-90ce-68e0-032aa54ed2c6",
+				"3594bb5d-1c6d-472a-28e6-4fa41e803696"
+			],
+			"owner": 0
+		},
+		{
+			"id": "44f3fd97-149d-9dc6-28a7-6bd6e38466ee",
+			"name": "HELL0 & NEW TOKEN",
+			"description": "got to app/routes.php - Method Demotoken\nyou can set \nuser_id \nand \ngroup_id\nto create a new test token\ncopy printed token and use it in further requests\n\nyou migth switch to \"RAW\" Response in POSTMAN to see the Token",
+			"order": [
+				"80ee8683-d9f4-d293-d9da-e88879548122",
+				"c05a784f-d68f-6c17-32fd-0410349d0a83"
+			],
+			"owner": 0
+		},
+		{
+			"id": "284257a8-db4f-d579-6425-d4796b3603a6",
+			"name": "Kategorien",
+			"description": "",
+			"order": [
+				"97a3059e-5809-46ae-bae2-244a994c9058",
+				"762b0731-9b90-ed7c-b8c1-18c1d78c0046"
+			],
+			"owner": 0
+		},
+		{
+			"id": "955332fc-7935-b977-a67a-b08e94fcc109",
+			"name": "Medical-Doctor-Timeslot",
+			"description": "",
+			"order": [
+				"db2a93ac-5ffb-3212-1d11-52b96dd14170",
+				"3111fb8e-bb07-4128-f970-afa3f7c3b515",
+				"7c5c8748-2470-291e-6c55-98ab7cf025d3",
+				"0d4bcc9d-a02f-6baa-ea54-aeb72d8ee3f3",
+				"621f80a5-7947-5606-0d80-127e51546076",
+				"35569a98-e78e-b591-0997-8f60cfa6c25b"
+			],
+			"owner": 0
+		},
+		{
+			"id": "97b117d8-1ec8-9fbe-0b94-2bd76e0bb3fe",
+			"name": "NEWWW: Course User Actions",
+			"description": "",
+			"order": [
+				"0bcad1be-120f-bd3f-9961-64ebd371b3d7",
+				"bf4911c0-9cf5-0a0b-1300-3a7d5f0b3f16"
+			],
+			"owner": 0
+		},
+		{
+			"id": "f01ca896-4e18-0607-6d47-dbe1f1f492a8",
+			"name": "Points",
+			"description": "",
+			"order": [
+				"a959313b-cd8c-97db-0348-68e1b39638bc"
+			],
+			"owner": 0
+		},
+		{
+			"id": "bc106445-1665-1ec1-bf7f-240f379e5aed",
+			"name": "Profiles",
+			"description": "",
+			"order": [
+				"2ff06ac1-325f-284f-ca23-23906ea5949c",
+				"db315f16-0283-8ffb-a431-1f218c42d24a"
+			],
+			"owner": 0
+		},
+		{
+			"id": "265b5a1c-1bf1-bb45-f80c-5d93e8b65fc5",
+			"name": "Questionaire",
+			"description": "",
+			"order": [
+				"67cb4f59-0f2b-9d5a-da59-1be17e0e23a7",
+				"669da352-7824-e818-682d-5cfee997ce09"
+			],
+			"owner": 0
+		},
+		{
+			"id": "db918d37-7216-ba75-5f47-c8476d35e854",
+			"name": "Rating",
+			"description": "",
+			"order": [
+				"6048aa39-e397-3fd8-b052-8fd56fcec095",
+				"dc07d82f-bf60-f64b-7a59-cb03bf84de11",
+				"2415e1fe-aaed-ea64-4b71-c1124a81a0ea"
+			],
+			"owner": 0
+		},
+		{
+			"id": "576c449f-3ed3-f125-19b4-a04ac085e160",
+			"name": "Screen 10 - Dashboard",
+			"description": "",
+			"order": [
+				"3d7e15ae-f6c5-e402-8d91-96ef2d1a07a6",
+				"47891643-b3a4-7019-b7c5-09538686dbd9",
+				"5a55cb7e-618c-0fab-c5f7-67ec1bc97fef",
+				"00f483fc-66e2-d62a-ce0d-028dc1ee3205",
+				"f66bcb8a-b923-5d57-9f9f-7bdf8bf49ba6",
+				"b49baf2b-c96c-7dd8-3fbb-d1c9427f2704"
+			],
+			"owner": 0
+		},
+		{
+			"id": "f02c78eb-b1bf-542e-39f5-ea3390d01008",
+			"name": "Screen 11 -Search",
+			"description": "http://soa.healthvision.de/test/proto1/public/api/courses/search\nhttp://185.10.195.66/test/hvaa_02/public/api/courses/search\ncurl --request GET \\\n  --url 'http://soa.healthvision.de/test/proto1/public/api/courses/search?search=temp&=&lang=en' \\\n  --header 'authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc' \\\n  --header 'content-type: application/json' \\\n  --cookie PHPSESSID=l4d8edfi6i91m3te9r2tdoii36 \\\n  --data '",
+			"order": [
+				"5cd63b49-79a1-7e33-888f-39a588849257"
+			],
+			"owner": 0
+		},
+		{
+			"id": "fde1449c-45b7-a1d9-828e-17be895190c6",
+			"name": "Screen 12; Filter Courses",
+			"description": "",
+			"order": [
+				"a6ea8019-0136-5052-707f-26439cbfd265"
+			],
+			"owner": 0
+		},
+		{
+			"id": "6165c883-edbb-d9f3-2974-58b155c093b9",
+			"name": "Screen 14 - Course Details",
+			"description": "for more info see here Folder Course And Courses -> Single Course",
+			"order": [
+				"d30cbba2-4058-0499-55b4-995b890fe7d0"
+			],
+			"owner": 0
+		},
+		{
+			"id": "c578cbd0-cecf-38ed-f745-edb484b3b0d2",
+			"name": "Screen 19 - Meine Aktivitäten",
+			"description": "",
+			"order": [
+				"28143311-3ea3-d989-289d-b2e6fffbd420"
+			],
+			"owner": 0
+		},
+		{
+			"id": "c473278a-0c37-e2da-927d-834843bebd76",
+			"name": "Screen 20 - Meine Nachrichten",
+			"description": "",
+			"order": [
+				"d7283fef-bc9c-0b01-22fa-e6a5cdd686b2"
+			],
+			"owner": 0
+		},
+		{
+			"id": "f35e8207-e335-6e20-fb0e-c6ccc8fe850c",
+			"name": "Screen 8 - Alle Kategorien",
+			"description": "",
+			"order": [
+				"05702e03-695c-2f33-f72f-a5537b5ea1fb"
+			],
+			"owner": 0
+		},
+		{
+			"id": "cc6adefa-5038-f899-4778-cf96abb511ab",
+			"name": "Screen 9 - Angebote - Category with Courses",
+			"description": "wie Screen 8 \nURL http://soa.healthvision.de/test/proto1/public/api/cats/all/courses\nhttp://185.10.195.66/test/hvaa_02/public/api/cats/courses\n",
+			"order": [
+				"198d3c81-c864-53f2-938c-9caea4bfd6c5"
+			],
+			"owner": 0
+		}
+	],
+	"owner": 0,
+	"hasRequests": true,
+	"requests": [
+		{
+			"id": "00f483fc-66e2-d62a-ce0d-028dc1ee3205",
+			"name": "Offene Bewertungen -- Courseinfo copy",
+			"description": " /**\n       * get info about users courses info\n       * some params (like is_not_interested) or combinations ((like \"is_not_completed\" and \"upcoming\" AND is_) might not make sense, but for flexibility in different senarios we keep them\n       * \n       * params:\n       * all: set to 1 to get all of the following, default 0\n       * lang: language,default \"de\"\n       * by default all are of, so provide at least one, or \"all\"\n       * \"is_payed\" get courses user payed for, default 0,\n       * \"is_not_payed\"\n       * \"is_completed\"\n       * \"is_not_completed\"\n       * \"is_booked\"\n       * \"is_not_booked\"\n       * \"is_interested\"\n       * \"is_not_interested\"\n       * 'is_rated'\n       * 'is_not_rated'\n       * // by date, default OFF=0, provide all_dates=1 to turn all ON\n       * 'past' : past courses, default 0\n       * 'current': current current, default 0\n       * 'upcoming': upcoming courses, default 0\n       * \n       * to also get the actually visited courses add (Like on screen \"My Activities\")\n       * \"visited\": visited=1 \n       * \n       * todo: better output formating\n       */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/dashboard/courseinfo/?is_not_rated=1",
+			"responses": [],
+			"queryParams": [
+				{
+					"key": "is_not_rated",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "576c449f-3ed3-f125-19b4-a04ac085e160"
+		},
+		{
+			"id": "05702e03-695c-2f33-f72f-a5537b5ea1fb",
+			"name": "Category All - Mini",
+			"description": "see Folder Kategorien here ",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/cats/all?data=mini",
+			"responses": [],
+			"queryParams": [
+				{
+					"key": "data",
+					"value": "mini"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "f35e8207-e335-6e20-fb0e-c6ccc8fe850c"
+		},
+		{
+			"id": "0938b343-7a85-f452-9555-aed03b0d3934",
+			"name": "Course - Search",
+			"description": "/**\n       * search in courses \n       * query params:\n       * search: (string) ,(search in title and description)\n       * order_by: date, order (default order) (TODO)\n       * order:asc,desc (default asc) (TODO)\n       * lang:  get results for a language code \"en,de,es,it\" (default de)\n       * PUBLIC\n       * TODO: searches only in course_locale NOT in course_date_locale yet\n       */\n       \n good search term (which give results):\n orient, multi",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/courses/search?search=orient&lang=de",
+			"responses": [],
+			"queryParams": [
+				{
+					"key": "search",
+					"value": "orient"
+				},
+				{
+					"key": "lang",
+					"value": "de"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "e4de90d2-e48c-0ce9-29d8-369f802a8722"
+		},
+		{
+			"id": "0bcad1be-120f-bd3f-9961-64ebd371b3d7",
+			"name": "toggle is_interested in Course",
+			"description": "/**\n* toogle Remember Course\n* returns updated user_course state\n*/",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/courses/1/toggleinterested",
+			"responses": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "97b117d8-1ec8-9fbe-0b94-2bd76e0bb3fe"
+		},
+		{
+			"id": "0d4bcc9d-a02f-6baa-ea54-aeb72d8ee3f3",
+			"name": "Timeslot book",
+			"description": "/**\n    * returns free timeslots in a month\n    * public/api/profile/{PROFILE_ID}/calendar?month=-1\n    * params: month (int) : next month is 1, previous month = -1 , default = 0 (current month)\n    * \n    * RESULT: \n    * data: orderd list of timeslots (see result for further details)\n    * meta.days_with: list with days (1-31) with free slots\n    * meta.map: list with key day and ids of timeslots\n    * \n    * Screen: \"Offene Termine\", S22, H-courses-seminar-calender\n    */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "POST",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/x-www-form-urlencoded",
+			"dataMode": "urlencoded",
+			"data": [
+				{
+					"key": "text",
+					"value": "sehr bewegend",
+					"type": "text"
+				},
+				{
+					"key": "course_id",
+					"value": "1",
+					"type": "text"
+				},
+				{
+					"key": "rating",
+					"value": "3",
+					"type": "text"
+				},
+				{
+					"key": "user_id",
+					"value": "49",
+					"type": "text"
+				}
+			],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/timeslot/167/book",
+			"responses": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": ""
+				}
+			],
+			"folder": "955332fc-7935-b977-a67a-b08e94fcc109"
+		},
+		{
+			"id": "198d3c81-c864-53f2-938c-9caea4bfd6c5",
+			"name": "Category All -  with Courses - Mini",
+			"description": "       * list of ALL items\n       * query params\n       * order_by: date, order (default order)\n       * order:asc,desc (default asc)\n       * data:  full (category with locale and resource)\n       *        mini (category with Title and full Image Path)\n       * lang:  get results for a language code \"en,de,es,it\" (default de)\n       * PUBLIC\n       */\nAnm: \norderby updated_at not working since demodata has the same timestamp\n\nFull Category Output is not \"styled\", since i don\"t know whats needed",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/cats/all?data=mini&include=course",
+			"responses": [],
+			"queryParams": [
+				{
+					"key": "data",
+					"value": "mini"
+				},
+				{
+					"key": "include",
+					"value": "course"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "cc6adefa-5038-f899-4778-cf96abb511ab"
+		},
+		{
+			"id": "2415e1fe-aaed-ea64-4b71-c1124a81a0ea",
+			"name": "Create Rating",
+			"description": "* create rating of a course\n          * \n          * requires a user_id, which is not part of the POST but received from token\n          * \n          * POST\n          * course_id: a course id\n          * rating: Integer from 1-5 (..depending on scale, more possible but current stats will not return heigher values..)\n          * optional: text \n          * (as always post params must match table names !!!)\n          * \n         */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "POST",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/x-www-form-urlencoded",
+			"dataMode": "urlencoded",
+			"data": [
+				{
+					"key": "text",
+					"value": "sehr bewegend",
+					"type": "text"
+				},
+				{
+					"key": "course_id",
+					"value": "1",
+					"type": "text"
+				},
+				{
+					"key": "rating",
+					"value": "3",
+					"type": "text"
+				},
+				{
+					"key": "user_id",
+					"value": "49",
+					"type": "text"
+				}
+			],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/rating/create",
+			"responses": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": ""
+				}
+			],
+			"folder": "db918d37-7216-ba75-5f47-c8476d35e854"
+		},
+		{
+			"id": "28143311-3ea3-d989-289d-b2e6fffbd420",
+			"name": "Meine Aktivitäten - Courseinfo copy",
+			"description": "\ngenerated with params is_booked and is_interested\nmaybe we need one more field in course_attendee\n\n\n /**\n       * get info about users courses info\n       * some params (like is_not_interested) or combinations ((like \"is_not_completed\" and \"upcoming\" AND is_) might not make sense, but for flexibility in different senarios we keep them\n       * \n       * params:\n       * all: set to 1 to get all of the following, default 0\n       * lang: language,default \"de\"\n       * by default all are of, so provide at least one, or \"all\"\n       * \"is_payed\" get courses user payed for, default 0,\n       * \"is_not_payed\"\n       * \"is_completed\"\n       * \"is_not_completed\"\n       * \"is_booked\"\n       * \"is_not_booked\"\n       * \"is_interested\"\n       * \"is_not_interested\"\n       * 'is_rated'\n       * 'is_not_rated'\n       * // by date, default OFF=0, provide all_dates=1 to turn all ON\n       * 'past' : past courses, default 0\n       * 'current': current current, default 0\n       * 'upcoming': upcoming courses, default 0\n       * \n       * to also get the actually visited courses add (Like on screen \"My Activities\")\n       * \"visited\": visited=1 \n       * \n       * todo: better output formating\n       */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/dashboard/courseinfo/?lang=de&is_booked=1&is_interested=1",
+			"responses": [],
+			"queryParams": [
+				{
+					"key": "lang",
+					"value": "de"
+				},
+				{
+					"key": "is_booked",
+					"value": "1"
+				},
+				{
+					"key": "is_interested",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "c578cbd0-cecf-38ed-f745-edb484b3b0d2"
+		},
+		{
+			"id": "2ff06ac1-325f-284f-ca23-23906ea5949c",
+			"name": "Categories with Courses LIst",
+			"description": "/**\n       * list of ALL items\n       * query params\n       * order_by: date, order (default order)\n       * order:asc,desc (default asc)\n       * data:  full (category with locale and resource)\n       *        mini (category with Title and full Image Path)\n       * lang:  get results for a language code \"en,de,es,it\" (default de)\n       * PUBLIC\n       * TODO: parent child courses not yet implemented\n       */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://185.10.195.66/test/hvaa2/public/api/cats/all/courses?data=mini&order=date",
+			"responses": [],
+			"queryParams": [
+				{
+					"key": "data",
+					"value": "mini"
+				},
+				{
+					"key": "order",
+					"value": "date"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "bc106445-1665-1ec1-bf7f-240f379e5aed"
+		},
+		{
+			"id": "3111fb8e-bb07-4128-f970-afa3f7c3b515",
+			"name": "Timeslots of Profile",
+			"description": "/**\n    * returns free timeslots in a month\n    * public/api/profile/{PROFILE_ID}/calendar?month=-1\n    * params: month (int) : next month is 1, previous month = -1 , default = 0 (current month)\n    * \n    * RESULT: \n    * data: orderd list of timeslots (see result for further details)\n    * meta.days_with: list with days (1-31) with free slots\n    * meta.map: list with key day and ids of timeslots\n    * \n    * Screen: \"Offene Termine\", S22, H-courses-seminar-calender\n    */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/x-www-form-urlencoded",
+			"dataMode": "urlencoded",
+			"data": [
+				{
+					"key": "text",
+					"value": "sehr bewegend",
+					"type": "text"
+				},
+				{
+					"key": "course_id",
+					"value": "1",
+					"type": "text"
+				},
+				{
+					"key": "rating",
+					"value": "3",
+					"type": "text"
+				},
+				{
+					"key": "user_id",
+					"value": "49",
+					"type": "text"
+				}
+			],
+			"rawModeData": "",
+			"pathVariables": {},
+			"url": "http://soa.healthvision.de/test/proto1/public/api/profile/1/calendar?month=-1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "month",
+					"value": "-1",
+					"equals": true,
+					"description": ""
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": ""
+				}
+			],
+			"folder": "955332fc-7935-b977-a67a-b08e94fcc109"
+		},
+		{
+			"id": "34b33fbe-ceae-48e6-78db-f3f83c906d03",
+			"name": "Single Course - SIMPLE",
+			"description": "/**\n         * Get one course with every (many) available realted attribute\n         * \n         * query params:\n         * \n         * lang:  get results for a language code \"en,de,es,it\" (default de)\n         * display: mini/full, default mini - how results are displayed, mini means the result are optimized for typical use\n         * cat: include catory info (cat=1), default 0 (off)\n         * profile: send profile=0 to exclude profile info, default on\n         * contact: send contact=0 to exclude contact info, default on \n         * room: send room=0 to exclude room info, default on\n         * dates: single course dates, dates=1 to turn on / include, default 0/off\n         * user: include info about the current user related to course (default=1 ON)\n         * rating: include rating info about the current course (default=1 ON)\n         * \n         * probably its better to access single courses with uuid instead of id. (TODO)\n         */  ",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/courses/12",
+			"responses": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "e4de90d2-e48c-0ce9-29d8-369f802a8722"
+		},
+		{
+			"id": "35569a98-e78e-b591-0997-8f60cfa6c25b",
+			"name": "Schedule - Upcoming Appointments in X-Days copy",
+			"description": " /**\n          * this returns upcoming course_dates (single courses) in a timerange (days)\n          * \n          * params\n          * days: default 3\n          * lang: default de\n          *\n          * Maybe we need additional params here like ->where(\"is_payed\",'=',1) or\n          * where(\"is_confirmed\",'=',1) \n          * this could easily be done\n         */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"pathVariables": {},
+			"url": "http://soa.healthvision.de/test/proto1/public/api/dashboard/schedule_appointments/?lang=en&days=10",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "lang",
+					"value": "en",
+					"equals": true,
+					"description": ""
+				},
+				{
+					"key": "days",
+					"value": "10",
+					"equals": true,
+					"description": ""
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "955332fc-7935-b977-a67a-b08e94fcc109"
+		},
+		{
+			"id": "3594bb5d-1c6d-472a-28e6-4fa41e803696",
+			"name": "Create Rating copy",
+			"description": "rating/create \n->\nec=B7kvr7Rgf0t38Da%2Bbk7UEbDvjEH8cFWgT8bDo%2F%2BPiQ%2FhHNEErI5cFRUPiwPenoPVoj99d2IAU2MBrBixI63Ws%2BNUNGuj1I7%2FKXVV%2BEH%2FxGtvAHHXqxmUUKPWkrfLQKysnck%2F3iOv2KI8s2NrGapLRRE%2FM68EjXiSwKpfAqxxgRJUXqx47MLVjXraJ%2Fr4Fz070eP%2Fp%2Fw4arLYQY2nsq3Msg66%2FPOf9djNRkUQ1aoLS5Cf4NQO7TPXPVtzaod5Z1IjSsOX3YhtqK6WBjc5XIAkjTCg98CHbRwI746lfrFkV8XFVOjxo4J5kvnOb257DdnHoUXb3sKI6qhBmjeF1hvdLQU4ySxAJ%2BEZrMAyZHGCxTCVNmBSZF%2BxhYylUM4K6ekLLHxWqeV2nu8oZyZKCPSlkwXmx0s3CtYGFuPBes50%2B76CkferxCr8Y83BuXl9wTJ5nzP0G3YSAQSLpuMM%2BmDXUFuHSq0KJmojgUZT86PbMLYd2ofyFc3QTxiuImxu7yNjUR%2BZNjHP6nTtra%2BDJ2QhzHjrYjb1JlXGnAiuYZkmw1GwkHdY2cjZFDWsfUsOLg4MP%2Bp4dFu7YqjnMnNUNCnG8SxEvV6ZjHqKYwuG7UCtdyUdmdlyYd%2B6rMplXJT%2FISyC0MFKZJBIzfOxtYeYf6y9449Utb0KjETobb2D6WNSnJs%3D\n\nPOST\n{\"text\":\"sehr bewegend\",\"course_id\":\"1\",\"rating\":\"2\"}\n->\necp=aIv7ntRKEMCXQZSXTzRd3xmXIGpD08bFzEnFa9%2BrGx5pOqkORNMqXYlDTiSeg7fmhaVxgXZQReZjudJciebBPyR7xsFQFzUhvxfeMLhyEt56f9yZWpOYC588U5tr60k0poY%2FgDqCEgKnQx2cYCRxxgAB6uJYk5Oc4JUiiHLy4iZMV5tR1kkfCcrBeaHpX395GLt%2BxKYb01suSVPozIYd3vsCZ4Qrd6MtasQMLCjLXGnQEhgK0zGAJDu1VAf8LmVlnHUyVKd8Ry%2FGUlGtoq%2BkbveDWTVonfW%2B3fNGVglSaB3R5ZrzmS%2BmXveQs%2B%2FlSx07ztJP2%2Fhf7ptf02PhpSHDPutycqto4utRPdte7C47AcXHWxsvp2gr3o96Tc6ufORzwguVWwLAYEBc0d7Jet9wjyW8R2epQNweueat0rS4MqKGFV0tN4SzUXCve2E5UeNi4veaosV%2F74t8%2F1J4BnuGS1xjgr7SLfZ2kgqPgz6Ks74LUbczbYFT3YI5ssIuD6mqW2gJnNYJDjsoHMa8lHKchfYHe%2FY0P%2BUqdrL1Ius9rD6G5XYmSJ%2BeMcYEyln2tzPtXOUgJu8ohAiNxbKF9O0wFhpUFbCk315c%2FShA0lwSeMxY6trVIEZp1XWap7elOxtSUdJQ6z91NCrZXs4LFy6OjRiyJec%2F7Ct49WYY9xhAZAA%3D",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "POST",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/x-www-form-urlencoded",
+			"dataMode": "urlencoded",
+			"data": [
+				{
+					"key": "ecp",
+					"value": "aIv7ntRKEMCXQZSXTzRd3xmXIGpD08bFzEnFa9%2BrGx5pOqkORNMqXYlDTiSeg7fmhaVxgXZQReZjudJciebBPyR7xsFQFzUhvxfeMLhyEt56f9yZWpOYC588U5tr60k0poY%2FgDqCEgKnQx2cYCRxxgAB6uJYk5Oc4JUiiHLy4iZMV5tR1kkfCcrBeaHpX395GLt%2BxKYb01suSVPozIYd3vsCZ4Qrd6MtasQMLCjLXGnQEhgK0zGAJDu1VAf8LmVlnHUyVKd8Ry%2FGUlGtoq%2BkbveDWTVonfW%2B3fNGVglSaB3R5ZrzmS%2BmXveQs%2B%2FlSx07ztJP2%2Fhf7ptf02PhpSHDPutycqto4utRPdte7C47AcXHWxsvp2gr3o96Tc6ufORzwguVWwLAYEBc0d7Jet9wjyW8R2epQNweueat0rS4MqKGFV0tN4SzUXCve2E5UeNi4veaosV%2F74t8%2F1J4BnuGS1xjgr7SLfZ2kgqPgz6Ks74LUbczbYFT3YI5ssIuD6mqW2gJnNYJDjsoHMa8lHKchfYHe%2FY0P%2BUqdrL1Ius9rD6G5XYmSJ%2BeMcYEyln2tzPtXOUgJu8ohAiNxbKF9O0wFhpUFbCk315c%2FShA0lwSeMxY6trVIEZp1XWap7elOxtSUdJQ6z91NCrZXs4LFy6OjRiyJec%2F7Ct49WYY9xhAZAA%3D",
+					"type": "text"
+				}
+			],
+			"rawModeData": "",
+			"pathVariables": {},
+			"url": "http://soa.healthvision.de/test/proto1/public/?uaid=4&ec=B7kvr7Rgf0t38Da%2Bbk7UEbDvjEH8cFWgT8bDo%2F%2BPiQ%2FhHNEErI5cFRUPiwPenoPVoj99d2IAU2MBrBixI63Ws%2BNUNGuj1I7%2FKXVV%2BEH%2FxGtvAHHXqxmUUKPWkrfLQKysnck%2F3iOv2KI8s2NrGapLRRE%2FM68EjXiSwKpfAqxxgRJUXqx47MLVjXraJ%2Fr4Fz070eP%2Fp%2Fw4arLYQY2nsq3Msg66%2FPOf9djNRkUQ1aoLS5Cf4NQO7TPXPVtzaod5Z1IjSsOX3YhtqK6WBjc5XIAkjTCg98CHbRwI746lfrFkV8XFVOjxo4J5kvnOb257DdnHoUXb3sKI6qhBmjeF1hvdLQU4ySxAJ%2BEZrMAyZHGCxTCVNmBSZF%2BxhYylUM4K6ekLLHxWqeV2nu8oZyZKCPSlkwXmx0s3CtYGFuPBes50%2B76CkferxCr8Y83BuXl9wTJ5nzP0G3YSAQSLpuMM%2BmDXUFuHSq0KJmojgUZT86PbMLYd2ofyFc3QTxiuImxu7yNjUR%2BZNjHP6nTtra%2BDJ2QhzHjrYjb1JlXGnAiuYZkmw1GwkHdY2cjZFDWsfUsOLg4MP%2Bp4dFu7YqjnMnNUNCnG8SxEvV6ZjHqKYwuG7UCtdyUdmdlyYd%2B6rMplXJT%2FISyC0MFKZJBIzfOxtYeYf6y9449Utb0KjETobb2D6WNSnJs%3D",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "uaid",
+					"value": "4",
+					"equals": true,
+					"description": ""
+				},
+				{
+					"key": "ec",
+					"value": "B7kvr7Rgf0t38Da%2Bbk7UEbDvjEH8cFWgT8bDo%2F%2BPiQ%2FhHNEErI5cFRUPiwPenoPVoj99d2IAU2MBrBixI63Ws%2BNUNGuj1I7%2FKXVV%2BEH%2FxGtvAHHXqxmUUKPWkrfLQKysnck%2F3iOv2KI8s2NrGapLRRE%2FM68EjXiSwKpfAqxxgRJUXqx47MLVjXraJ%2Fr4Fz070eP%2Fp%2Fw4arLYQY2nsq3Msg66%2FPOf9djNRkUQ1aoLS5Cf4NQO7TPXPVtzaod5Z1IjSsOX3YhtqK6WBjc5XIAkjTCg98CHbRwI746lfrFkV8XFVOjxo4J5kvnOb257DdnHoUXb3sKI6qhBmjeF1hvdLQU4ySxAJ%2BEZrMAyZHGCxTCVNmBSZF%2BxhYylUM4K6ekLLHxWqeV2nu8oZyZKCPSlkwXmx0s3CtYGFuPBes50%2B76CkferxCr8Y83BuXl9wTJ5nzP0G3YSAQSLpuMM%2BmDXUFuHSq0KJmojgUZT86PbMLYd2ofyFc3QTxiuImxu7yNjUR%2BZNjHP6nTtra%2BDJ2QhzHjrYjb1JlXGnAiuYZkmw1GwkHdY2cjZFDWsfUsOLg4MP%2Bp4dFu7YqjnMnNUNCnG8SxEvV6ZjHqKYwuG7UCtdyUdmdlyYd%2B6rMplXJT%2FISyC0MFKZJBIzfOxtYeYf6y9449Utb0KjETobb2D6WNSnJs%3D",
+					"equals": true,
+					"description": ""
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": ""
+				}
+			],
+			"folder": "97b19662-da92-6df1-1117-566875e99971"
+		},
+		{
+			"id": "3d7e15ae-f6c5-e402-8d91-96ef2d1a07a6",
+			"name": "Schedule - Meine nächsten Termin - Upcoming Course in X-Days",
+			"description": " /**\n          * this returns upcoming course_dates (single courses) in a timerange (days)\n          * \n          * params\n          * days: default 3\n          * lang: default de\n          *\n          * Maybe we need additional params here like ->where(\"is_payed\",'=',1) or\n          * where(\"is_confirmed\",'=',1) \n          * this could easily be done\n         */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"pathVariables": {},
+			"url": "http://soa.healthvision.de/test/proto1/public/api/dashboard/schedule/?lang=de&days=30",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "lang",
+					"value": "de",
+					"equals": true,
+					"description": ""
+				},
+				{
+					"key": "days",
+					"value": "30",
+					"equals": true,
+					"description": ""
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "576c449f-3ed3-f125-19b4-a04ac085e160"
+		},
+		{
+			"id": "41240325-97a8-8e36-e80c-907be93965b0",
+			"name": "Test POST encrypted : Book Timeslot",
+			"description": "/**\n    * returns free timeslots in a month\n    * public/api/profile/{PROFILE_ID}/calendar?month=-1\n    * params: month (int) : next month is 1, previous month = -1 , default = 0 (current month)\n    * \n    * RESULT: \n    * data: orderd list of timeslots (see result for further details)\n    * meta.days_with: list with days (1-31) with free slots\n    * meta.map: list with key day and ids of timeslots\n    * \n    * Screen: \"Offene Termine\", S22, H-courses-seminar-calender\n    */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "POST",
+			"headers": "// Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/x-www-form-urlencoded",
+			"dataMode": "urlencoded",
+			"data": [
+				{
+					"key": "text",
+					"value": "sehr bewegend",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "course_id",
+					"value": "1",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "rating",
+					"value": "3",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "user_id",
+					"value": "49",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"rawModeData": "",
+			"pathVariables": {},
+			"url": "http://soa.healthvision.de/test/proto1/public/api/?uaid=1&ec=oIxta%2Foj1dTMMbGYCGGCqsG1gtgY0uN%2F0J2Cl9iZ2gAqKfByhQsbZ8tehuGwP9Qsx%2FmdD2YxEQzT0SN%2Flz%2FXkio0JmR3epCkEunloQlNpXCNSB2Kep9sXxhhdmJtxBx%2Fn%2Fg%2Fhy48AgoXb6W18gsToMKrOp%2Bp2QCqLtfYxLFTu8nJ36bZPHYCXta%2BwOULRB5cY7PX%2FwA44qPGUgbnXmjC3NqkOh3dQhYtJ11N4S6pKt5Yr1xKhWs8Af4ZtYRJOg6wePgAE17uZ%2BXR8CH%2BlI85By7YYBitCN4g3PRZhJ2%2Ft2xdhVlI20Lnshx4j2VoK%2FfUMqyI2sY1q%2BORv3A6zEoaOPh%2BtOMxJ60MauB7BfA4JO6AdUHuzZ7wHl0wGfecq9qfagLEwaDjXzZV2XYcYhmtm4p3RReHzYC3u7dCIsk9anLBXnYWN56nq7VKcbIMlMLLH6KFRzZ6%2BjfAzjbXiylyG%2BdgEP5IOlTrTg%2F1aejwUurhtwpBJqJBbY6C9pqbXA3zrqM4en59rbbMPTmCG66nv2SS%2FEQYWYfLixkth44L93DK%2BftySkq83QknvhaALRjmiP5D1OlvSr06IiACz1dylB9xPhcypaonTLp%2FsV739SxEBxy10mjWHr0HOMg%2BHzcVZ3sLKMIjn5LZrrD870YZV5RXhctfN73m0uGB0hcuve4%3D",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "uaid",
+					"value": "1",
+					"equals": true,
+					"description": ""
+				},
+				{
+					"key": "ec",
+					"value": "oIxta%2Foj1dTMMbGYCGGCqsG1gtgY0uN%2F0J2Cl9iZ2gAqKfByhQsbZ8tehuGwP9Qsx%2FmdD2YxEQzT0SN%2Flz%2FXkio0JmR3epCkEunloQlNpXCNSB2Kep9sXxhhdmJtxBx%2Fn%2Fg%2Fhy48AgoXb6W18gsToMKrOp%2Bp2QCqLtfYxLFTu8nJ36bZPHYCXta%2BwOULRB5cY7PX%2FwA44qPGUgbnXmjC3NqkOh3dQhYtJ11N4S6pKt5Yr1xKhWs8Af4ZtYRJOg6wePgAE17uZ%2BXR8CH%2BlI85By7YYBitCN4g3PRZhJ2%2Ft2xdhVlI20Lnshx4j2VoK%2FfUMqyI2sY1q%2BORv3A6zEoaOPh%2BtOMxJ60MauB7BfA4JO6AdUHuzZ7wHl0wGfecq9qfagLEwaDjXzZV2XYcYhmtm4p3RReHzYC3u7dCIsk9anLBXnYWN56nq7VKcbIMlMLLH6KFRzZ6%2BjfAzjbXiylyG%2BdgEP5IOlTrTg%2F1aejwUurhtwpBJqJBbY6C9pqbXA3zrqM4en59rbbMPTmCG66nv2SS%2FEQYWYfLixkth44L93DK%2BftySkq83QknvhaALRjmiP5D1OlvSr06IiACz1dylB9xPhcypaonTLp%2FsV739SxEBxy10mjWHr0HOMg%2BHzcVZ3sLKMIjn5LZrrD870YZV5RXhctfN73m0uGB0hcuve4%3D",
+					"equals": true,
+					"description": ""
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": ""
+				}
+			],
+			"folder": "97b19662-da92-6df1-1117-566875e99971"
+		},
+		{
+			"id": "47891643-b3a4-7019-b7c5-09538686dbd9",
+			"name": "Messages - Unread Messages",
+			"description": "\n /**\n  * get messages \n  * \n  * params\n  * readstatus: default = 0 (only unread messages), set to 1 for only read messages, to 2 for all\n  * use meta['count'] of response to get count\n */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/dashboard/messages/?readstatus=0",
+			"responses": [],
+			"queryParams": [
+				{
+					"key": "readstatus",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "576c449f-3ed3-f125-19b4-a04ac085e160"
+		},
+		{
+			"id": "5a55cb7e-618c-0fab-c5f7-67ec1bc97fef",
+			"name": "Points - Meine Punkte",
+			"description": " /**\n          * Points and Open Ratings\n          * \n          * response should be descriptive enought\n          * params: no\n          * \n         */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/dashboard/points/",
+			"responses": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "576c449f-3ed3-f125-19b4-a04ac085e160"
+		},
+		{
+			"id": "5cd63b49-79a1-7e33-888f-39a588849257",
+			"name": "Course - Search copy",
+			"description": "/**\n       * search in courses \n       * query params:\n       * search: (string) ,(search in title and description)\n       * order_by: date, order (default order) (TODO)\n       * order:asc,desc (default asc) (TODO)\n       * lang:  get results for a language code \"en,de,es,it\" (default de)\n       * PUBLIC\n       * TODO: searches only in course_locale NOT in course_date_locale yet\n       */\n       \n good search term (which give results):\n orient, multi",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/courses/search?search=orient&lang=de",
+			"responses": [],
+			"queryParams": [
+				{
+					"key": "search",
+					"value": "orient"
+				},
+				{
+					"key": "lang",
+					"value": "de"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "f02c78eb-b1bf-542e-39f5-ea3390d01008"
+		},
+		{
+			"id": "5f3a54f7-eb68-931e-7aa6-4fba1d5a9dcf",
+			"name": "Test crypted without query params",
+			"description": "/**\n         * Get one course with every (many) available realted attribute\n         * \n         * query params:\n         * \n         * lang:  get results for a language code \"en,de,es,it\" (default de)\n         * display: mini/full, default mini - how results are displayed, mini means the result are optimized for typical use\n         * cat: include catory info (cat=1), default 0 (off)\n         * profile: send profile=0 to exclude profile info, default on\n         * contact: send contact=0 to exclude contact info, default on \n         * room: send room=0 to exclude room info, default on\n         * dates: single course dates, dates=1 to turn on / include, default 0/off\n         * user: include info about the current user related to course (default=1 ON)\n         * rating: include rating info about the current course (default=1 ON)\n         * \n         * probably its better to access single courses with uuid instead of id. (TODO)\n         */  ",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Content-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"pathVariables": {},
+			"url": "http://soa.healthvision.de/test/proto1/public/api/?uaid=1&ec=ARfHY6i2ta0wVh4kd1IHDsrOV4Vqy%2BvAhxuRHWp2StatEF7kfCy0QSt5chJmQJ0GZ38XWOL5xYwDOEYFlHsG8h7otRJE54RPSDHwiHnp6nzNw30Zp%2FtbWOo8ICPp%2BO7B3aFb6easlozLP8sHJSPyYeDBAAo4mjx0yZSxxMy8rP8l%2BCPSTIY04vYjblv9yx0OJshMA268h0G7QPSJvRJ9mcjNgDBfTPxknBt9Yaq5aGvNQLbyir74qpR%2FI8OVPtX50lfQ9ZM8aiRemmHLK0Jd02RARLWSywQYOHshvIDoi8TJv8notAWBZ%2FT%2BGcPjLRkf4Mot3eaKKZofQ7rEm%2BV1QR8KdX%2FCjX9VacZ65y3e9p6tqudafhjlH0xLrAQ9KYN%2FB9o%2FTCwrZ1bWNub0QR54QImd2WDVjmgcmUiMXhpzE8z2CauqLVA0TvudFKZLZg3rYbXkNEFumLkzt3TM0eLGe%2FF0Fxk6bcCvW0wsWDgGE%2BINErOmgXFcuxlmwy9MkucQg74tF5RkOMK9y7nCQDP1qAkpgHIYEOBdHnRVqUrv7aqeGv10wDyVfk9bCZI3Su1nBFrFJ5VwRSWHGNoKoFMcRnFpdwtcD63IIsqvrdGUWQP0Mk9A8Bt1FfC2dLx4wE%2FLGwRRMFbfpnQyikPOyGBTO%2B2ybr2MFIDf247yu970eAs%3D",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "uaid",
+					"value": "1",
+					"equals": true,
+					"description": ""
+				},
+				{
+					"key": "ec",
+					"value": "ARfHY6i2ta0wVh4kd1IHDsrOV4Vqy%2BvAhxuRHWp2StatEF7kfCy0QSt5chJmQJ0GZ38XWOL5xYwDOEYFlHsG8h7otRJE54RPSDHwiHnp6nzNw30Zp%2FtbWOo8ICPp%2BO7B3aFb6easlozLP8sHJSPyYeDBAAo4mjx0yZSxxMy8rP8l%2BCPSTIY04vYjblv9yx0OJshMA268h0G7QPSJvRJ9mcjNgDBfTPxknBt9Yaq5aGvNQLbyir74qpR%2FI8OVPtX50lfQ9ZM8aiRemmHLK0Jd02RARLWSywQYOHshvIDoi8TJv8notAWBZ%2FT%2BGcPjLRkf4Mot3eaKKZofQ7rEm%2BV1QR8KdX%2FCjX9VacZ65y3e9p6tqudafhjlH0xLrAQ9KYN%2FB9o%2FTCwrZ1bWNub0QR54QImd2WDVjmgcmUiMXhpzE8z2CauqLVA0TvudFKZLZg3rYbXkNEFumLkzt3TM0eLGe%2FF0Fxk6bcCvW0wsWDgGE%2BINErOmgXFcuxlmwy9MkucQg74tF5RkOMK9y7nCQDP1qAkpgHIYEOBdHnRVqUrv7aqeGv10wDyVfk9bCZI3Su1nBFrFJ5VwRSWHGNoKoFMcRnFpdwtcD63IIsqvrdGUWQP0Mk9A8Bt1FfC2dLx4wE%2FLGwRRMFbfpnQyikPOyGBTO%2B2ybr2MFIDf247yu970eAs%3D",
+					"equals": true,
+					"description": ""
+				}
+			],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "97b19662-da92-6df1-1117-566875e99971"
+		},
+		{
+			"id": "6048aa39-e397-3fd8-b052-8fd56fcec095",
+			"name": "Get Rating of  Course",
+			"description": "provide a valid and existing UUID of a Course\nor course_id \nuuid is first checked, if formally correct, but not existing it will return null",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/rating/get?course_id=1",
+			"responses": [],
+			"queryParams": [
+				{
+					"key": "course_id",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "db918d37-7216-ba75-5f47-c8476d35e854"
+		},
+		{
+			"id": "621f80a5-7947-5606-0d80-127e51546076",
+			"name": "Timeslot cancel",
+			"description": "/**\n    * returns free timeslots in a month\n    * public/api/profile/{PROFILE_ID}/calendar?month=-1\n    * params: month (int) : next month is 1, previous month = -1 , default = 0 (current month)\n    * \n    * RESULT: \n    * data: orderd list of timeslots (see result for further details)\n    * meta.days_with: list with days (1-31) with free slots\n    * meta.map: list with key day and ids of timeslots\n    * \n    * Screen: \"Offene Termine\", S22, H-courses-seminar-calender\n    */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "POST",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/x-www-form-urlencoded",
+			"dataMode": "urlencoded",
+			"data": [
+				{
+					"key": "text",
+					"value": "sehr bewegend",
+					"type": "text"
+				},
+				{
+					"key": "course_id",
+					"value": "1",
+					"type": "text"
+				},
+				{
+					"key": "rating",
+					"value": "3",
+					"type": "text"
+				},
+				{
+					"key": "user_id",
+					"value": "49",
+					"type": "text"
+				}
+			],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/timeslot/31/cancel",
+			"responses": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": ""
+				}
+			],
+			"folder": "955332fc-7935-b977-a67a-b08e94fcc109"
+		},
+		{
+			"id": "669da352-7824-e818-682d-5cfee997ce09",
+			"name": "Check User _ Course _ Questionaire",
+			"description": "/**\n   * Return questionaire and corresponding questions based on course id\n   * params:\n   * course id\n   * lang: de,en default de\n   */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"pathVariables": {},
+			"url": "http://soa.healthvision.de/test/proto1/public/api/evaluation/check?course_id=2",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "course_id",
+					"value": "2",
+					"equals": true,
+					"description": ""
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "265b5a1c-1bf1-bb45-f80c-5d93e8b65fc5"
+		},
+		{
+			"id": "67cb4f59-0f2b-9d5a-da59-1be17e0e23a7",
+			"name": "Get Questionaire of a course",
+			"description": "/**\n   * Return questionaire and corresponding questions based on course id\n   * params:\n   * course id\n   * lang: de,en default de\n   */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"pathVariables": {},
+			"url": "http://soa.healthvision.de/test/proto1/public/api/evaluation/get?course_id=2",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "course_id",
+					"value": "2",
+					"equals": true,
+					"description": ""
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "265b5a1c-1bf1-bb45-f80c-5d93e8b65fc5"
+		},
+		{
+			"id": "73a5ea04-ec0b-d91a-aa5a-39a76a84f640",
+			"name": "Courseinfo",
+			"description": " /**\n       * get info about users courses info\n       * some params (like is_not_interested) or combinations ((like \"is_not_completed\" and \"upcoming\" AND is_) might not make sense, but for flexibility in different senarios we keep them\n       * \n       * params:\n       * all: set to 1 to get all of the following, default 0\n       * lang: language,default \"de\"\n       * by default all are of, so provide at least one, or \"all\"\n       * \"is_payed\" get courses user payed for, default 0,\n       * \"is_not_payed\"\n       * \"is_completed\"\n       * \"is_not_completed\"\n       * \"is_booked\"\n       * \"is_not_booked\"\n       * \"is_interested\"\n       * \"is_not_interested\"\n       * 'is_rated'\n       * 'is_not_rated'\n       * // by date, default OFF=0, provide all_dates=1 to turn all ON\n       * 'past' : past courses, default 0\n       * 'current': current current, default 0\n       * 'upcoming': upcoming courses, default 0\n       * \n       * to also get the actually visited courses add (Like on screen \"My Activities\")\n       * \"visited\": visited=1 \n       * \n       * todo: better output formating\n       */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/dashboard/courseinfo/?lang=de&is_rated=0&is_interested=0&past=0&all=0&all_dates=0&upcoming=1&is_payed=1",
+			"responses": [],
+			"queryParams": [
+				{
+					"key": "lang",
+					"value": "de"
+				},
+				{
+					"key": "is_rated",
+					"value": "0"
+				},
+				{
+					"key": "is_interested",
+					"value": "0"
+				},
+				{
+					"key": "past",
+					"value": "0"
+				},
+				{
+					"key": "all",
+					"value": "0"
+				},
+				{
+					"key": "all_dates",
+					"value": "0"
+				},
+				{
+					"key": "upcoming",
+					"value": "1"
+				},
+				{
+					"key": "is_payed",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "27fabb25-6b5e-5c1b-1ba6-c75104b055a5"
+		},
+		{
+			"id": "762b0731-9b90-ed7c-b8c1-18c1d78c0046",
+			"name": "Category All -  with / without Courses (Mini / Full)  ",
+			"description": " /**\n       * list of ALL cats with / without courses\n       * query params\n       * include: set to \"course\" for related courses, default 0\n       * order:asc,desc (default asc (Ascending default course order from 1 to x))\n       * data:  full (category with locale and resource)\n       *        mini (category with Title and full Image Path)\n       * lang:  get results for a language code \"en,de,es,it\" (default de)\n       * PUBLIC\n       */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"pathVariables": {},
+			"url": "http://soa.healthvision.de/test/proto1/public/api/cats/all?data=mini&order=desc&include=course",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "data",
+					"value": "mini",
+					"equals": true,
+					"description": ""
+				},
+				{
+					"key": "order",
+					"value": "desc",
+					"equals": true,
+					"description": ""
+				},
+				{
+					"key": "include",
+					"value": "course",
+					"equals": true,
+					"description": ""
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "284257a8-db4f-d579-6425-d4796b3603a6"
+		},
+		{
+			"id": "7c5c8748-2470-291e-6c55-98ab7cf025d3",
+			"name": "Courses of Profile",
+			"description": "/**\n      * get all courses of a profile \n      * public/api/profile/{profile_id}/courses\n      * \n      * param: lang (string) : de,en... default de\n      * \n      * returns a list with courses (missing \"data\" key)\n      * */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/x-www-form-urlencoded",
+			"dataMode": "urlencoded",
+			"data": [
+				{
+					"key": "text",
+					"value": "sehr bewegend",
+					"type": "text"
+				},
+				{
+					"key": "course_id",
+					"value": "1",
+					"type": "text"
+				},
+				{
+					"key": "rating",
+					"value": "3",
+					"type": "text"
+				},
+				{
+					"key": "user_id",
+					"value": "49",
+					"type": "text"
+				}
+			],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/profile/1/courses",
+			"responses": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": ""
+				}
+			],
+			"folder": "955332fc-7935-b977-a67a-b08e94fcc109"
+		},
+		{
+			"id": "8001c432-c2c7-569f-7cf3-9addc35523b9",
+			"name": "Schedule - Upcoming Course in X-Days",
+			"description": " /**\n          * this returns upcoming course_dates (single courses) in a timerange (days)\n          * \n          * params\n          * days: default 3\n          * lang: default de\n          *\n          * Maybe we need additional params here like ->where(\"is_payed\",'=',1) or\n          * where(\"is_confirmed\",'=',1) \n          * this could easily be done\n         */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"pathVariables": {},
+			"url": "http://soa.healthvision.de/test/proto1/public/api/dashboard/schedule/?lang=en&days=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "lang",
+					"value": "en",
+					"equals": true,
+					"description": ""
+				},
+				{
+					"key": "days",
+					"value": "1",
+					"equals": true,
+					"description": ""
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "27fabb25-6b5e-5c1b-1ba6-c75104b055a5"
+		},
+		{
+			"id": "80ee8683-d9f4-d293-d9da-e88879548122",
+			"name": "DEMO-TOKEN",
+			"description": "got to app/routes.php - Method Demotoken\nyou can set \nuser_id \nand \ngroup_id\nto create a new test token\ncopy printed token and use it in further requests\n\nyou migth switch to \"RAW\" Response in POSTMAN to see the Token",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/demo_token",
+			"responses": [],
+			"queryParams": [],
+			"headerData": [],
+			"folder": "44f3fd97-149d-9dc6-28a7-6bd6e38466ee"
+		},
+		{
+			"id": "8fb816e8-0019-90ce-68e0-032aa54ed2c6",
+			"name": "Test POST encrypted : Cancel Timeslot copy",
+			"description": "api/timeslot/167/cancel\n--> \nec=oIxta%2Foj1dTMMbGYCGGCqsG1gtgY0uN%2F0J2Cl9iZ2gAqKfByhQsbZ8tehuGwP9Qsx%2FmdD2YxEQzT0SN%2Flz%2FXkio0JmR3epCkEunloQlNpXCNSB2Kep9sXxhhdmJtxBx%2Fn%2Fg%2Fhy48AgoXb6W18gsToMKrOp%2Bp2QCqLtfYxLFTu8nJ36bZPHYCXta%2BwOULRB5cY7PX%2FwA44qPGUgbnXmjC3NqkOh3dQhYtJ11N4S6pKt5Yr1xKhWs8Af4ZtYRJOg6wePgAE17uZ%2BXR8CH%2BlI85By7YYBitCN4g3PRZhJ2%2Ft2xdhVlI20Lnshx4j2VoK%2FfUMqyI2sY1q%2BORv3A6zEoaOPh%2BtOMxJ60MauB7BfA4JO6AdUHuzZ7wHl0wGfecq9qfagLEwaDjXzZV2XYcYhmtm4p3RReHzYC3u7dCIsk9anLBXnYWN56nq7VKcbIMlMLLH6KFRzZ6%2BjfAzjbXiylyG%2BdgEP5IOlTrTg%2F1aejwUurhtwpBJqJBbY6C9pqbXA3zrqM4en59rbbMPTmCG66nv2SS%2FEQYWYfLixkth44L93DK%2BftySkq83QknvhaALRjmiP5D1OlvSr06IiACz1dylB9xPhcypaonTLp%2FsV739SxEBxy10mjWHr0HOMg%2BHzcVZ3sLKMIjn5LZrrD870YZV5RXhctfN73m0uGB0hcuve4%3D",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "POST",
+			"headers": "// Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/x-www-form-urlencoded",
+			"dataMode": "urlencoded",
+			"data": [
+				{
+					"key": "text",
+					"value": "sehr bewegend",
+					"type": "text"
+				},
+				{
+					"key": "course_id",
+					"value": "1",
+					"type": "text"
+				},
+				{
+					"key": "rating",
+					"value": "3",
+					"type": "text"
+				},
+				{
+					"key": "user_id",
+					"value": "49",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"rawModeData": "",
+			"pathVariables": {},
+			"url": "http://soa.healthvision.de/test/proto1/public/api/?uaid=1&ec=Mlrw%2FNg%2Fb9Ktur2pFSqyLBkTlgSnPrjj6yU004lvrYfTm9UH32YuMS7BWId9QcAwiVuQFm9KR7R%2F330ZZHL%2FpU4V9mmg6t9TFRtxfgtSuoP0uojCPR9w9mSuUU367da2V8odzz40qw%2Frod%2Foztl1pDMdqtNNu739R9nBD2OX3XPL6U34xYQYdhptidLl5HDzQ3WzBiCjf681Z5E0wpP2a1u5M4tO%2B4lZ3hkZXIpi%2FfCGHwnWs5QMQ94XyFevAG%2BPgVtJZK8g3DUN5uqDladXIuBbcBb%2F%2BuSAoKhXY2D7E7AnCuf2ULRWtglkwJN62JPLwEAvWelHkzO4kW9SunWeDiAjp%2BNScPcDMA9CDV3uKkSIBQ12D%2Bt%2FIMFVUM4gXzVQCcBvkWkWjjkXGTi6y3Vq5hpQqrBncMXxkp54Qhc3vdGJpRMNapkSZibk9unsuuexgDihwrtulY2PPX49739S4eiLDQFfPxThkJo6K0ZOFLkN05pgO%2FDtB7ihHW5RGr3Dh9cf1rVQVwT7R6n1lBCktqCtGOvyb3CVadAOJUbrtQKSC3CK2IOLQfCRjD%2BRMeUuAGv4w2PNn4%2BM4KSM90JcYmNoMcioYOTLA52cDz%2BI5bQrMY0cJYIi2t5mKqhdXWjdR2jOvoOppAktjjuQ4nOLGwW1YE6lu10OicHJYmlEHPQ%3D",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "uaid",
+					"value": "1",
+					"equals": true,
+					"description": ""
+				},
+				{
+					"key": "ec",
+					"value": "Mlrw%2FNg%2Fb9Ktur2pFSqyLBkTlgSnPrjj6yU004lvrYfTm9UH32YuMS7BWId9QcAwiVuQFm9KR7R%2F330ZZHL%2FpU4V9mmg6t9TFRtxfgtSuoP0uojCPR9w9mSuUU367da2V8odzz40qw%2Frod%2Foztl1pDMdqtNNu739R9nBD2OX3XPL6U34xYQYdhptidLl5HDzQ3WzBiCjf681Z5E0wpP2a1u5M4tO%2B4lZ3hkZXIpi%2FfCGHwnWs5QMQ94XyFevAG%2BPgVtJZK8g3DUN5uqDladXIuBbcBb%2F%2BuSAoKhXY2D7E7AnCuf2ULRWtglkwJN62JPLwEAvWelHkzO4kW9SunWeDiAjp%2BNScPcDMA9CDV3uKkSIBQ12D%2Bt%2FIMFVUM4gXzVQCcBvkWkWjjkXGTi6y3Vq5hpQqrBncMXxkp54Qhc3vdGJpRMNapkSZibk9unsuuexgDihwrtulY2PPX49739S4eiLDQFfPxThkJo6K0ZOFLkN05pgO%2FDtB7ihHW5RGr3Dh9cf1rVQVwT7R6n1lBCktqCtGOvyb3CVadAOJUbrtQKSC3CK2IOLQfCRjD%2BRMeUuAGv4w2PNn4%2BM4KSM90JcYmNoMcioYOTLA52cDz%2BI5bQrMY0cJYIi2t5mKqhdXWjdR2jOvoOppAktjjuQ4nOLGwW1YE6lu10OicHJYmlEHPQ%3D",
+					"equals": true,
+					"description": ""
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": ""
+				}
+			],
+			"folder": "97b19662-da92-6df1-1117-566875e99971"
+		},
+		{
+			"id": "90c22fa7-6c32-0ea1-619e-e949e8cd653d",
+			"name": "Campaign",
+			"description": "/**\n          * get action of week \n          * params: lang: default de, de/en\n          * */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"pathVariables": {},
+			"url": "http://185.10.195.66/test/hvaa2/public/api/dashboard/campaign?lang=en",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "lang",
+					"value": "en",
+					"equals": true,
+					"description": ""
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "27fabb25-6b5e-5c1b-1ba6-c75104b055a5"
+		},
+		{
+			"id": "97a3059e-5809-46ae-bae2-244a994c9058",
+			"name": "Category - One with / without courses",
+			"description": " /**\n       * list of ALL cats with / without courses\n       * query params\n       * include: set to \"course\" for related courses, default 0\n       * order:asc,desc (default asc (Ascending default course order from 1 to x))\n       * data:  full (category with locale and resource)\n       *        mini (category with Title and full Image Path)\n       * lang:  get results for a language code \"en,de,es,it\" (default de)\n       * PUBLIC\n       */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"pathVariables": {},
+			"url": "http://soa.healthvision.de/test/proto1/public/api/cats/1?include=course&data=mini",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "include",
+					"value": "course",
+					"equals": true,
+					"description": ""
+				},
+				{
+					"key": "data",
+					"value": "mini",
+					"equals": true,
+					"description": ""
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "284257a8-db4f-d579-6425-d4796b3603a6"
+		},
+		{
+			"id": "9e5dad9c-1744-b80f-b862-a80ab7e0eb9a",
+			"name": "Seats_and_Voting",
+			"description": "/**\n       * returns seats and voting for a list of courses \n       * query params:\n       * courses: (list, comma seperated) course_id,course_id,... if empty all courses are returned\n       * returns: array[course_id:[seats_free,seats_totla][rating(float)]]\n       */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"pathVariables": {},
+			"url": "http://185.10.195.66/test/hvaa2/public/api/courses/seats_voting?courses=6,2,3,4,5",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "courses",
+					"value": "6,2,3,4,5",
+					"equals": true,
+					"description": ""
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "e4de90d2-e48c-0ce9-29d8-369f802a8722"
+		},
+		{
+			"id": "a5d01e3f-68c6-ada4-290b-b8d44c5754ea",
+			"name": "Single Course",
+			"description": "/**\n         * Get one course with every (many) available realted attribute\n         * \n         * query params:\n         * \n         * lang:  get results for a language code \"en,de,es,it\" (default de)\n         * display: mini/full, default mini - how results are displayed, mini means the result are optimized for typical use\n         * cat: include catory info (cat=1), default 0 (off)\n         * profile: send profile=0 to exclude profile info, default on\n         * contact: send contact=0 to exclude contact info, default on \n         * room: send room=0 to exclude room info, default on\n         * dates: single course dates, dates=1 to turn on / include, default 0/off\n         * user: include info about the current user related to course (default=1 ON)\n         * rating: include rating info about the current course (default=1 ON)\n         * \n         * probably its better to access single courses with uuid instead of id. (TODO)\n         */  ",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"pathVariables": {},
+			"url": "http://soa.healthvision.de/test/proto1/public/api/courses/13?langde=&dates=1&display=mini&profile=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "langde",
+					"value": "",
+					"equals": false,
+					"description": ""
+				},
+				{
+					"key": "dates",
+					"value": "1",
+					"equals": true,
+					"description": ""
+				},
+				{
+					"key": "display",
+					"value": "mini",
+					"equals": true,
+					"description": ""
+				},
+				{
+					"key": "profile",
+					"value": "1",
+					"equals": true,
+					"description": ""
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "e4de90d2-e48c-0ce9-29d8-369f802a8722"
+		},
+		{
+			"id": "a64d502f-6731-76f7-9471-84583f351e89",
+			"name": "Course - Filter",
+			"description": " /**\n       * a list of courses with filter, filters are based on table course_type\n       * \n       * query params:\n       * free: relates to is_free, 0/1 default 0\n       * group: relates to is_group, default 1 \n       * is_special not yey\n       * \n       * order_by: date, order (default order) (orders categories)\n       * order:asc,desc (default asc)\n       * lang:  get results for a language code \"en,de,es,it\" (default de)\n       * \n       * PUBLIC\n       * \n       * TODO: connection to department not yet\n       * \n       * Result List contains Categories on the first level, in there are the courses matching filter criteria \n       */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/courses/filter?lang=de&free=0&order=desc",
+			"responses": [],
+			"queryParams": [
+				{
+					"key": "lang",
+					"value": "de"
+				},
+				{
+					"key": "free",
+					"value": "0"
+				},
+				{
+					"key": "order",
+					"value": "desc"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "e4de90d2-e48c-0ce9-29d8-369f802a8722"
+		},
+		{
+			"id": "a6ea8019-0136-5052-707f-26439cbfd265",
+			"name": "Course - Filter copy",
+			"description": " /**\n       * a list of courses with filter, filters are based on table course_type\n       * \n       * query params:\n       * free: relates to is_free, 0/1 default 0\n       * group: relates to is_group, default 1 \n       * is_special not yey\n       * \n       * order_by: date, order (default order) (orders categories)\n       * order:asc,desc (default asc)\n       * lang:  get results for a language code \"en,de,es,it\" (default de)\n       * \n       * PUBLIC\n       * \n       * TODO: connection to department not yet\n       * \n       * Result List contains Categories on the first level, in there are the courses matching filter criteria \n       */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/courses/filter?lang=de&free=0&order=desc",
+			"responses": [],
+			"queryParams": [
+				{
+					"key": "lang",
+					"value": "de"
+				},
+				{
+					"key": "free",
+					"value": "0"
+				},
+				{
+					"key": "order",
+					"value": "desc"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "fde1449c-45b7-a1d9-828e-17be895190c6"
+		},
+		{
+			"id": "a959313b-cd8c-97db-0348-68e1b39638bc",
+			"name": "Get Rating of  Course copy",
+			"description": "provide a valid and existing UUID of a Course\nor course_id \nuuid is first checked, if formally correct, but not existing it will return null",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"pathVariables": {},
+			"url": "http://soa.healthvision.de/test/proto1/public/api/points/?course_id=3",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "course_id",
+					"value": "3",
+					"equals": true,
+					"description": ""
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "f01ca896-4e18-0607-6d47-dbe1f1f492a8"
+		},
+		{
+			"id": "ab4f7990-002c-dfc4-455e-d0b7cef2faa2",
+			"name": "Dashboard - Complete",
+			"description": " /**\n       * get info about users courses info\n       * some params (like is_not_interested) or combinations ((like \"is_not_completed\" and \"upcoming\" AND is_) might not make sense, but for flexibility in different senarios we keep them\n       * \n       * params:\n       * all: set to 1 to get all of the following, default 0\n       * lang: language,default \"de\"\n       * by default all are of, so provide at least one, or \"all\"\n       * \"is_payed\" get courses user payed for, default 0,\n       * \"is_not_payed\"\n       * \"is_completed\"\n       * \"is_not_completed\"\n       * \"is_booked\"\n       * \"is_not_booked\"\n       * \"is_interested\"\n       * \"is_not_interested\"\n       * 'is_rated'\n       * 'is_not_rated'\n       * // by date, default OFF=0, provide all_dates=1 to turn all ON\n       * 'past' : past courses, default 0\n       * 'current': current current, default 0\n       * 'upcoming': upcoming courses, default 0\n       * \n       * to also get the actually visited courses add (Like on screen \"My Activities\")\n       * \"visited\": visited=1 \n       * \n       * todo: better output formating\n       */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/dashboard/complete",
+			"responses": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "27fabb25-6b5e-5c1b-1ba6-c75104b055a5"
+		},
+		{
+			"id": "b49baf2b-c96c-7dd8-3fbb-d1c9427f2704",
+			"name": "Courseinfo copy copy",
+			"description": " /**\n       * get info about users courses info\n       * some params (like is_not_interested) or combinations ((like \"is_not_completed\" and \"upcoming\" AND is_) might not make sense, but for flexibility in different senarios we keep them\n       * \n       * params:\n       * all: set to 1 to get all of the following, default 0\n       * lang: language,default \"de\"\n       * by default all are of, so provide at least one, or \"all\"\n       * \"is_payed\" get courses user payed for, default 0,\n       * \"is_not_payed\"\n       * \"is_completed\"\n       * \"is_not_completed\"\n       * \"is_booked\"\n       * \"is_not_booked\"\n       * \"is_interested\"\n       * \"is_not_interested\"\n       * 'is_rated'\n       * 'is_not_rated'\n       * // by date, default OFF=0, provide all_dates=1 to turn all ON\n       * 'past' : past courses, default 0\n       * 'current': current current, default 0\n       * 'upcoming': upcoming courses, default 0\n       * \n       * to also get the actually visited courses add (Like on screen \"My Activities\")\n       * \"visited\": visited=1 \n       * \n       * todo: better output formating\n       */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"pathVariables": {},
+			"url": "http://soa.healthvision.de/test/proto1/public/api/dashboard/courseinfo/?lang=en&all=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "lang",
+					"value": "en",
+					"equals": true,
+					"description": ""
+				},
+				{
+					"key": "all",
+					"value": "1",
+					"equals": true,
+					"description": ""
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "576c449f-3ed3-f125-19b4-a04ac085e160"
+		},
+		{
+			"id": "bf4911c0-9cf5-0a0b-1300-3a7d5f0b3f16",
+			"name": "rate course",
+			"description": "/**\n* toogle Remember Course\n* returns updated user_course state\n*/",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/courses/1/toggleinterested",
+			"responses": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "97b117d8-1ec8-9fbe-0b94-2bd76e0bb3fe"
+		},
+		{
+			"id": "c05a784f-d68f-6c17-32fd-0410349d0a83",
+			"name": "HELLO",
+			"description": "welcome",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/",
+			"responses": [],
+			"queryParams": [],
+			"headerData": [],
+			"folder": "44f3fd97-149d-9dc6-28a7-6bd6e38466ee"
+		},
+		{
+			"id": "cc639fec-e6f9-34a2-e83b-50083a564325",
+			"name": "Messages - Read / Unread",
+			"description": "\n /**\n  * get messages \n  * \n  * params\n  * readstatus: default = 0 (only unread messages), set to 1 for only read messages, to 2 for all\n  * use meta['count'] of response to get count\n */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/dashboard/messages/?readstatus=0",
+			"responses": [],
+			"queryParams": [
+				{
+					"key": "readstatus",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "27fabb25-6b5e-5c1b-1ba6-c75104b055a5"
+		},
+		{
+			"id": "d0f8aa44-cc27-86a6-15c7-120a97cd964c",
+			"name": "Test crypted with query params copy",
+			"description": "/**\n         * Get one course with every (many) available realted attribute\n         * \n         * query params:\n         * \n         * lang:  get results for a language code \"en,de,es,it\" (default de)\n         * display: mini/full, default mini - how results are displayed, mini means the result are optimized for typical use\n         * cat: include catory info (cat=1), default 0 (off)\n         * profile: send profile=0 to exclude profile info, default on\n         * contact: send contact=0 to exclude contact info, default on \n         * room: send room=0 to exclude room info, default on\n         * dates: single course dates, dates=1 to turn on / include, default 0/off\n         * user: include info about the current user related to course (default=1 ON)\n         * rating: include rating info about the current course (default=1 ON)\n         * \n         * probably its better to access single courses with uuid instead of id. (TODO)\n         */  ",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"pathVariables": {},
+			"url": "http://soa.healthvision.de/test/proto1/public/api/?ec=dQ5heaNMlJFW5kCvpbTM4K7FyodmJDtHaXQb0tO5UuKI56mhLeMXXea9FN5tcMJWR6P341oNEXatNdT8P%2Bw%2F0w3ezwTmU%2Fv04mOpI6suC3MSYDm6bVcoMkUd4mjjfKeODJpe3eoULcIl00D243nhlWz%2FqnOBj8PkyW6w1srnR%2BhFcTBxpa4Z8oarzTF9ZTMF6BOFvkdXnGrDTvslLYMFSjG0sM1R6zQwA%2FQtAdgcGMZsLAxNCgxnuYlFVVwEC45zydMmmQY%2FDdabG3SLmMoOs10euY%2F5039gir7BEnKb3UDyVeCbmz61GiQI7yREyvsepq0%2FoUcg9kvDuV3VFcSsh8Kii%2FC%2BrwH6hYn%2Ff84ARe5UDOeIU5Ha4CuLNAgXoLVxKBSV%2B%2BMOLajiC0J5Qk8%2BpG%2FyecQC3gWefogNHh04JiYpTDALmmS9BN%2BctloGlDDq25mwa9%2BhOBqVyrWbm%2F8fu9zU1%2BhXG6Lm%2BSB9Zjv4JaLDBPhLUcedgCeiD4e6dyRgGE1hG5uy5oIl%2BlIRonlW25ofiEsRJL0HIYPoiy50fQqd%2FKz27T5HPZTToKEsz0zbYk6Cos5rfhtJVSSnEYLkrXy31oA%2FX9it%2Bclt0212KP8HLlGYHfUyN4aHM1H%2FbMSbHv5L%2BE5s5OFUAh44nYuids5wjobu1S6xfaD%2F9BQDHP4%3D",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "ec",
+					"value": "dQ5heaNMlJFW5kCvpbTM4K7FyodmJDtHaXQb0tO5UuKI56mhLeMXXea9FN5tcMJWR6P341oNEXatNdT8P%2Bw%2F0w3ezwTmU%2Fv04mOpI6suC3MSYDm6bVcoMkUd4mjjfKeODJpe3eoULcIl00D243nhlWz%2FqnOBj8PkyW6w1srnR%2BhFcTBxpa4Z8oarzTF9ZTMF6BOFvkdXnGrDTvslLYMFSjG0sM1R6zQwA%2FQtAdgcGMZsLAxNCgxnuYlFVVwEC45zydMmmQY%2FDdabG3SLmMoOs10euY%2F5039gir7BEnKb3UDyVeCbmz61GiQI7yREyvsepq0%2FoUcg9kvDuV3VFcSsh8Kii%2FC%2BrwH6hYn%2Ff84ARe5UDOeIU5Ha4CuLNAgXoLVxKBSV%2B%2BMOLajiC0J5Qk8%2BpG%2FyecQC3gWefogNHh04JiYpTDALmmS9BN%2BctloGlDDq25mwa9%2BhOBqVyrWbm%2F8fu9zU1%2BhXG6Lm%2BSB9Zjv4JaLDBPhLUcedgCeiD4e6dyRgGE1hG5uy5oIl%2BlIRonlW25ofiEsRJL0HIYPoiy50fQqd%2FKz27T5HPZTToKEsz0zbYk6Cos5rfhtJVSSnEYLkrXy31oA%2FX9it%2Bclt0212KP8HLlGYHfUyN4aHM1H%2FbMSbHv5L%2BE5s5OFUAh44nYuids5wjobu1S6xfaD%2F9BQDHP4%3D",
+					"equals": true,
+					"description": ""
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "97b19662-da92-6df1-1117-566875e99971"
+		},
+		{
+			"id": "d30cbba2-4058-0499-55b4-995b890fe7d0",
+			"name": "Single Course copy",
+			"description": "/**\n         * Get one course with every (many) available realted attribute\n         * \n         * query params:\n         * \n         * lang:  get results for a language code \"en,de,es,it\" (default de)\n         * display: mini/full, default mini - how results are displayed, mini means the result are optimized for typical use\n         * cat: include catory info (cat=1), default 0 (off)\n         * profile: send profile=0 to exclude profile info, default on\n         * contact: send contact=0 to exclude contact info, default on \n         * room: send room=0 to exclude room info, default on\n         * dates: single course dates, dates=1 to turn on / include, default 0/off\n         * user: include info about the current user related to course (default=1 ON)\n         * rating: include rating info about the current course (default=1 ON)\n         * \n         * probably its better to access single courses with uuid instead of id. (TODO)\n         */  ",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/courses/1?lang=de&display=full&cat=0&profile=0&dates=0&rating=0&user=1",
+			"responses": [],
+			"queryParams": [
+				{
+					"key": "lang",
+					"value": "de"
+				},
+				{
+					"key": "display",
+					"value": "full"
+				},
+				{
+					"key": "cat",
+					"value": "0"
+				},
+				{
+					"key": "profile",
+					"value": "0"
+				},
+				{
+					"key": "dates",
+					"value": "0"
+				},
+				{
+					"key": "rating",
+					"value": "0"
+				},
+				{
+					"key": "user",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "6165c883-edbb-d9f3-2974-58b155c093b9"
+		},
+		{
+			"id": "d7283fef-bc9c-0b01-22fa-e6a5cdd686b2",
+			"name": "Meine Nachrichten - Copy of Messages (dashboard)",
+			"description": "\n /**\n  * get messages \n  * \n  * params\n  * readstatus: default = 0 (only unread messages), set to 1 for only read messages, to 2 for all\n  * use meta['count'] of response to get count\n */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"pathVariables": {},
+			"url": "http://soa.healthvision.de/test/proto1/public/api/dashboard/messages/?readstatus=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "readstatus",
+					"value": "1",
+					"equals": true,
+					"description": ""
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "c473278a-0c37-e2da-927d-834843bebd76"
+		},
+		{
+			"id": "db2a93ac-5ffb-3212-1d11-52b96dd14170",
+			"name": "Profiles By Type",
+			"description": "Lists all Profiles (Trainers, Medicals, Coaches, etc)\nParam: type (int) \ncurrently we have (Demodata):\n1:trainer,2:doc/medical,3:coach/other",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/x-www-form-urlencoded",
+			"dataMode": "urlencoded",
+			"data": [
+				{
+					"key": "text",
+					"value": "sehr bewegend",
+					"type": "text"
+				},
+				{
+					"key": "course_id",
+					"value": "1",
+					"type": "text"
+				},
+				{
+					"key": "rating",
+					"value": "3",
+					"type": "text"
+				},
+				{
+					"key": "user_id",
+					"value": "49",
+					"type": "text"
+				}
+			],
+			"rawModeData": "",
+			"pathVariables": {},
+			"url": "http://soa.healthvision.de/test/proto1/public/api/profile/all?type=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "type",
+					"value": "1",
+					"equals": true,
+					"description": ""
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": ""
+				}
+			],
+			"folder": "955332fc-7935-b977-a67a-b08e94fcc109"
+		},
+		{
+			"id": "db315f16-0283-8ffb-a431-1f218c42d24a",
+			"name": "Profiles Get All",
+			"description": "",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/x-www-form-urlencoded",
+			"dataMode": "urlencoded",
+			"data": [
+				{
+					"key": "text",
+					"value": "sehr bewegend",
+					"type": "text"
+				},
+				{
+					"key": "course_id",
+					"value": "1",
+					"type": "text"
+				},
+				{
+					"key": "rating",
+					"value": "3",
+					"type": "text"
+				},
+				{
+					"key": "user_id",
+					"value": "49",
+					"type": "text"
+				}
+			],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/profiles/all/",
+			"responses": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": ""
+				}
+			],
+			"folder": "bc106445-1665-1ec1-bf7f-240f379e5aed"
+		},
+		{
+			"id": "dc07d82f-bf60-f64b-7a59-cb03bf84de11",
+			"name": "Delete Rating (s)",
+			"description": "provide either existing rating_id \nor course_id (deletes all from course)\nor user_id (deletes all from user)\n\n::: For Testing only :::::\n:: to refill with test data run::::\n php cli.php down 20161228111824\n php cli.php up 20161228111824",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "DELETE",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/rating/delete?user_id=2",
+			"responses": [],
+			"queryParams": [
+				{
+					"key": "user_id",
+					"value": "2"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "db918d37-7216-ba75-5f47-c8476d35e854"
+		},
+		{
+			"id": "ec977da7-a620-ca72-1e1c-4fc812cb00d0",
+			"name": "Test uncrypted",
+			"description": "/**\n         * Get one course with every (many) available realted attribute\n         * \n         * query params:\n         * \n         * lang:  get results for a language code \"en,de,es,it\" (default de)\n         * display: mini/full, default mini - how results are displayed, mini means the result are optimized for typical use\n         * cat: include catory info (cat=1), default 0 (off)\n         * profile: send profile=0 to exclude profile info, default on\n         * contact: send contact=0 to exclude contact info, default on \n         * room: send room=0 to exclude room info, default on\n         * dates: single course dates, dates=1 to turn on / include, default 0/off\n         * user: include info about the current user related to course (default=1 ON)\n         * rating: include rating info about the current course (default=1 ON)\n         * \n         * probably its better to access single courses with uuid instead of id. (TODO)\n         */  ",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"pathVariables": {},
+			"url": "http://soa.healthvision.de/test/proto1/public/api/?ec=courses/12",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "ec",
+					"value": "courses/12",
+					"equals": true,
+					"description": ""
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "97b19662-da92-6df1-1117-566875e99971"
+		},
+		{
+			"id": "f0982ed0-414c-a17e-9609-7705a4e7c5f0",
+			"name": "Schedule - Upcoming Appointments in X-Days",
+			"description": " /**\n          * this returns upcoming course_dates (single courses) in a timerange (days)\n          * \n          * params\n          * days: default 3\n          * lang: default de\n          *\n          * Maybe we need additional params here like ->where(\"is_payed\",'=',1) or\n          * where(\"is_confirmed\",'=',1) \n          * this could easily be done\n         */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"pathVariables": {},
+			"url": "http://soa.healthvision.de/test/proto1/public/api/dashboard/schedule_appointments/?lang=en&days=10",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "lang",
+					"value": "en",
+					"equals": true,
+					"description": ""
+				},
+				{
+					"key": "days",
+					"value": "10",
+					"equals": true,
+					"description": ""
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "27fabb25-6b5e-5c1b-1ba6-c75104b055a5"
+		},
+		{
+			"id": "f66bcb8a-b923-5d57-9f9f-7bdf8bf49ba6",
+			"name": "Courseinfo copy",
+			"description": " /**\n       * get info about users courses info\n       * some params (like is_not_interested) or combinations ((like \"is_not_completed\" and \"upcoming\" AND is_) might not make sense, but for flexibility in different senarios we keep them\n       * \n       * params:\n       * all: set to 1 to get all of the following, default 0\n       * lang: language,default \"de\"\n       * by default all are of, so provide at least one, or \"all\"\n       * \"is_payed\" get courses user payed for, default 0,\n       * \"is_not_payed\"\n       * \"is_completed\"\n       * \"is_not_completed\"\n       * \"is_booked\"\n       * \"is_not_booked\"\n       * \"is_interested\"\n       * \"is_not_interested\"\n       * 'is_rated'\n       * 'is_not_rated'\n       * // by date, default OFF=0, provide all_dates=1 to turn all ON\n       * 'past' : past courses, default 0\n       * 'current': current current, default 0\n       * 'upcoming': upcoming courses, default 0\n       * \n       * to also get the actually visited courses add (Like on screen \"My Activities\")\n       * \"visited\": visited=1 \n       * \n       * todo: better output formating\n       */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/dashboard/courseinfo/?lang=de&is_rated=0&is_interested=0&past=0&all=0&all_dates=0&upcoming=1&is_payed=1",
+			"responses": [],
+			"queryParams": [
+				{
+					"key": "lang",
+					"value": "de"
+				},
+				{
+					"key": "is_rated",
+					"value": "0"
+				},
+				{
+					"key": "is_interested",
+					"value": "0"
+				},
+				{
+					"key": "past",
+					"value": "0"
+				},
+				{
+					"key": "all",
+					"value": "0"
+				},
+				{
+					"key": "all_dates",
+					"value": "0"
+				},
+				{
+					"key": "upcoming",
+					"value": "1"
+				},
+				{
+					"key": "is_payed",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "576c449f-3ed3-f125-19b4-a04ac085e160"
+		},
+		{
+			"id": "fa3d2bf5-1e28-195d-29e2-46d25ed4fe9c",
+			"name": "Points",
+			"description": " /**\n          * Points and Open Ratings\n          * \n          * response should be descriptive enought\n          * params: no\n          * \n         */",
+			"collectionId": "4f1e71fe-4dd1-19cd-50de-85482d6f974e",
+			"method": "GET",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc\nContent-Type: application/json",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://soa.healthvision.de/test/proto1/public/api/dashboard/points/",
+			"responses": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"folder": "27fabb25-6b5e-5c1b-1ba6-c75104b055a5"
+		}
+	]
+}

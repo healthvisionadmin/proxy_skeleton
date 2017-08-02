@@ -1,0 +1,2054 @@
+{
+	"variables": [],
+	"info": {
+		"name": "SOA.HEALTVISION.DE",
+		"_postman_id": "e482fc6c-535f-a5ff-c7c1-62557f7d2639",
+		"description": "Simply change baseURL inside exported JSON-File via Search&Replace\n\nfor example\nchange\nhttp://soa.healthvision.de/test/proto1/public\nto \nhttp://185.10.195.66/test/hvaa2/public\n\n",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Course And Courses",
+			"description": "",
+			"item": [
+				{
+					"name": "Course - Search",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/courses/search?search=orient&lang=de",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "/**\n       * search in courses \n       * query params:\n       * search: (string) ,(search in title and description)\n       * order_by: date, order (default order) (TODO)\n       * order:asc,desc (default asc) (TODO)\n       * lang:  get results for a language code \"en,de,es,it\" (default de)\n       * PUBLIC\n       * TODO: searches only in course_locale NOT in course_date_locale yet\n       */\n       \n good search term (which give results):\n orient, multi"
+					},
+					"response": []
+				},
+				{
+					"name": "Single Course",
+					"request": {
+						"url": {
+							"raw": "http://soa.healthvision.de/test/proto1/public/api/courses/13?langde&dates=1&display=mini&profile=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"health",
+								"s3_1",
+								"public",
+								"api",
+								"courses",
+								"13"
+							],
+							"query": [
+								{
+									"key": "langde",
+									"value": "",
+									"equals": false,
+									"description": ""
+								},
+								{
+									"key": "dates",
+									"value": "1",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "display",
+									"value": "mini",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "profile",
+									"value": "1",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "/**\n         * Get one course with every (many) available realted attribute\n         * \n         * query params:\n         * \n         * lang:  get results for a language code \"en,de,es,it\" (default de)\n         * display: mini/full, default mini - how results are displayed, mini means the result are optimized for typical use\n         * cat: include catory info (cat=1), default 0 (off)\n         * profile: send profile=0 to exclude profile info, default on\n         * contact: send contact=0 to exclude contact info, default on \n         * room: send room=0 to exclude room info, default on\n         * dates: single course dates, dates=1 to turn on / include, default 0/off\n         * user: include info about the current user related to course (default=1 ON)\n         * rating: include rating info about the current course (default=1 ON)\n         * \n         * probably its better to access single courses with uuid instead of id. (TODO)\n         */  "
+					},
+					"response": []
+				},
+				{
+					"name": "Course - Filter",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/courses/filter?lang=de&free=0&order=desc",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": " /**\n       * a list of courses with filter, filters are based on table course_type\n       * \n       * query params:\n       * free: relates to is_free, 0/1 default 0\n       * group: relates to is_group, default 1 \n       * is_special not yey\n       * \n       * order_by: date, order (default order) (orders categories)\n       * order:asc,desc (default asc)\n       * lang:  get results for a language code \"en,de,es,it\" (default de)\n       * \n       * PUBLIC\n       * \n       * TODO: connection to department not yet\n       * \n       * Result List contains Categories on the first level, in there are the courses matching filter criteria \n       */"
+					},
+					"response": []
+				},
+				{
+					"name": "Seats_and_Voting",
+					"request": {
+						"url": {
+							"raw": "http://185.10.195.66/test/hvaa2/public/api/courses/seats_voting?courses=6,2,3,4,5",
+							"protocol": "http",
+							"host": [
+								"185",
+								"10",
+								"195",
+								"66"
+							],
+							"path": [
+								"test",
+								"hvaa2",
+								"public",
+								"api",
+								"courses",
+								"seats_voting"
+							],
+							"query": [
+								{
+									"key": "courses",
+									"value": "6,2,3,4,5",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "/**\n       * returns seats and voting for a list of courses \n       * query params:\n       * courses: (list, comma seperated) course_id,course_id,... if empty all courses are returned\n       * returns: array[course_id:[seats_free,seats_totla][rating(float)]]\n       */"
+					},
+					"response": []
+				},
+				{
+					"name": "Single Course - SIMPLE",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/courses/12",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "/**\n         * Get one course with every (many) available realted attribute\n         * \n         * query params:\n         * \n         * lang:  get results for a language code \"en,de,es,it\" (default de)\n         * display: mini/full, default mini - how results are displayed, mini means the result are optimized for typical use\n         * cat: include catory info (cat=1), default 0 (off)\n         * profile: send profile=0 to exclude profile info, default on\n         * contact: send contact=0 to exclude contact info, default on \n         * room: send room=0 to exclude room info, default on\n         * dates: single course dates, dates=1 to turn on / include, default 0/off\n         * user: include info about the current user related to course (default=1 ON)\n         * rating: include rating info about the current course (default=1 ON)\n         * \n         * probably its better to access single courses with uuid instead of id. (TODO)\n         */  "
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Dashboard - Meine Aktivitäten",
+			"description": "",
+			"item": [
+				{
+					"name": "Dashboard - Complete",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/dashboard/complete",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": " /**\n       * get info about users courses info\n       * some params (like is_not_interested) or combinations ((like \"is_not_completed\" and \"upcoming\" AND is_) might not make sense, but for flexibility in different senarios we keep them\n       * \n       * params:\n       * all: set to 1 to get all of the following, default 0\n       * lang: language,default \"de\"\n       * by default all are of, so provide at least one, or \"all\"\n       * \"is_payed\" get courses user payed for, default 0,\n       * \"is_not_payed\"\n       * \"is_completed\"\n       * \"is_not_completed\"\n       * \"is_booked\"\n       * \"is_not_booked\"\n       * \"is_interested\"\n       * \"is_not_interested\"\n       * 'is_rated'\n       * 'is_not_rated'\n       * // by date, default OFF=0, provide all_dates=1 to turn all ON\n       * 'past' : past courses, default 0\n       * 'current': current current, default 0\n       * 'upcoming': upcoming courses, default 0\n       * \n       * to also get the actually visited courses add (Like on screen \"My Activities\")\n       * \"visited\": visited=1 \n       * \n       * todo: better output formating\n       */"
+					},
+					"response": []
+				},
+				{
+					"name": "Courseinfo",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/dashboard/courseinfo/?lang=de&is_rated=0&is_interested=0&past=0&all=0&all_dates=0&upcoming=1&is_payed=1",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": " /**\n       * get info about users courses info\n       * some params (like is_not_interested) or combinations ((like \"is_not_completed\" and \"upcoming\" AND is_) might not make sense, but for flexibility in different senarios we keep them\n       * \n       * params:\n       * all: set to 1 to get all of the following, default 0\n       * lang: language,default \"de\"\n       * by default all are of, so provide at least one, or \"all\"\n       * \"is_payed\" get courses user payed for, default 0,\n       * \"is_not_payed\"\n       * \"is_completed\"\n       * \"is_not_completed\"\n       * \"is_booked\"\n       * \"is_not_booked\"\n       * \"is_interested\"\n       * \"is_not_interested\"\n       * 'is_rated'\n       * 'is_not_rated'\n       * // by date, default OFF=0, provide all_dates=1 to turn all ON\n       * 'past' : past courses, default 0\n       * 'current': current current, default 0\n       * 'upcoming': upcoming courses, default 0\n       * \n       * to also get the actually visited courses add (Like on screen \"My Activities\")\n       * \"visited\": visited=1 \n       * \n       * todo: better output formating\n       */"
+					},
+					"response": []
+				},
+				{
+					"name": "Points",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/dashboard/points/",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": " /**\n          * Points and Open Ratings\n          * \n          * response should be descriptive enought\n          * params: no\n          * \n         */"
+					},
+					"response": []
+				},
+				{
+					"name": "Schedule - Upcoming Course in X-Days",
+					"request": {
+						"url": {
+							"raw": "http://soa.healthvision.de/test/proto1/public/api/dashboard/schedule/?lang=en&days=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"health",
+								"s3_1",
+								"public",
+								"api",
+								"dashboard",
+								"schedule",
+								""
+							],
+							"query": [
+								{
+									"key": "lang",
+									"value": "en",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "days",
+									"value": "1",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": " /**\n          * this returns upcoming course_dates (single courses) in a timerange (days)\n          * \n          * params\n          * days: default 3\n          * lang: default de\n          *\n          * Maybe we need additional params here like ->where(\"is_payed\",'=',1) or\n          * where(\"is_confirmed\",'=',1) \n          * this could easily be done\n         */"
+					},
+					"response": []
+				},
+				{
+					"name": "Messages - Read / Unread",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/dashboard/messages/?readstatus=0",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "\n /**\n  * get messages \n  * \n  * params\n  * readstatus: default = 0 (only unread messages), set to 1 for only read messages, to 2 for all\n  * use meta['count'] of response to get count\n */"
+					},
+					"response": []
+				},
+				{
+					"name": "Campaign",
+					"request": {
+						"url": {
+							"raw": "http://185.10.195.66/test/hvaa2/public/api/dashboard/campaign?lang=en",
+							"protocol": "http",
+							"host": [
+								"185",
+								"10",
+								"195",
+								"66"
+							],
+							"path": [
+								"test",
+								"hvaa2",
+								"public",
+								"api",
+								"dashboard",
+								"campaign"
+							],
+							"query": [
+								{
+									"key": "lang",
+									"value": "en",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "/**\n          * get action of week \n          * params: lang: default de, de/en\n          * */"
+					},
+					"response": []
+				},
+				{
+					"name": "Schedule - Upcoming Appointments in X-Days",
+					"request": {
+						"url": {
+							"raw": "http://soa.healthvision.de/test/proto1/public/api/dashboard/schedule_appointments/?lang=en&days=10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"health",
+								"s3_1",
+								"public",
+								"api",
+								"dashboard",
+								"schedule_appointments",
+								""
+							],
+							"query": [
+								{
+									"key": "lang",
+									"value": "en",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "days",
+									"value": "10",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": " /**\n          * this returns upcoming course_dates (single courses) in a timerange (days)\n          * \n          * params\n          * days: default 3\n          * lang: default de\n          *\n          * Maybe we need additional params here like ->where(\"is_payed\",'=',1) or\n          * where(\"is_confirmed\",'=',1) \n          * this could easily be done\n         */"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Encrypted Endpoint",
+			"description": "",
+			"item": [
+				{
+					"name": "Test uncrypted",
+					"request": {
+						"url": {
+							"raw": "http://soa.healthvision.de/test/proto1/public/api/?ec=courses/12",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"health",
+								"s3_1",
+								"public",
+								"api",
+								""
+							],
+							"query": [
+								{
+									"key": "ec",
+									"value": "courses/12",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "/**\n         * Get one course with every (many) available realted attribute\n         * \n         * query params:\n         * \n         * lang:  get results for a language code \"en,de,es,it\" (default de)\n         * display: mini/full, default mini - how results are displayed, mini means the result are optimized for typical use\n         * cat: include catory info (cat=1), default 0 (off)\n         * profile: send profile=0 to exclude profile info, default on\n         * contact: send contact=0 to exclude contact info, default on \n         * room: send room=0 to exclude room info, default on\n         * dates: single course dates, dates=1 to turn on / include, default 0/off\n         * user: include info about the current user related to course (default=1 ON)\n         * rating: include rating info about the current course (default=1 ON)\n         * \n         * probably its better to access single courses with uuid instead of id. (TODO)\n         */  "
+					},
+					"response": []
+				},
+				{
+					"name": "Test crypted without query params",
+					"request": {
+						"url": {
+							"raw": "http://soa.healthvision.de/test/proto1/public/api/?uaid=1&ec=ARfHY6i2ta0wVh4kd1IHDsrOV4Vqy%2BvAhxuRHWp2StatEF7kfCy0QSt5chJmQJ0GZ38XWOL5xYwDOEYFlHsG8h7otRJE54RPSDHwiHnp6nzNw30Zp%2FtbWOo8ICPp%2BO7B3aFb6easlozLP8sHJSPyYeDBAAo4mjx0yZSxxMy8rP8l%2BCPSTIY04vYjblv9yx0OJshMA268h0G7QPSJvRJ9mcjNgDBfTPxknBt9Yaq5aGvNQLbyir74qpR%2FI8OVPtX50lfQ9ZM8aiRemmHLK0Jd02RARLWSywQYOHshvIDoi8TJv8notAWBZ%2FT%2BGcPjLRkf4Mot3eaKKZofQ7rEm%2BV1QR8KdX%2FCjX9VacZ65y3e9p6tqudafhjlH0xLrAQ9KYN%2FB9o%2FTCwrZ1bWNub0QR54QImd2WDVjmgcmUiMXhpzE8z2CauqLVA0TvudFKZLZg3rYbXkNEFumLkzt3TM0eLGe%2FF0Fxk6bcCvW0wsWDgGE%2BINErOmgXFcuxlmwy9MkucQg74tF5RkOMK9y7nCQDP1qAkpgHIYEOBdHnRVqUrv7aqeGv10wDyVfk9bCZI3Su1nBFrFJ5VwRSWHGNoKoFMcRnFpdwtcD63IIsqvrdGUWQP0Mk9A8Bt1FfC2dLx4wE%2FLGwRRMFbfpnQyikPOyGBTO%2B2ybr2MFIDf247yu970eAs%3D",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"health",
+								"s3_1",
+								"public",
+								"api",
+								""
+							],
+							"query": [
+								{
+									"key": "uaid",
+									"value": "1",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "ec",
+									"value": "ARfHY6i2ta0wVh4kd1IHDsrOV4Vqy%2BvAhxuRHWp2StatEF7kfCy0QSt5chJmQJ0GZ38XWOL5xYwDOEYFlHsG8h7otRJE54RPSDHwiHnp6nzNw30Zp%2FtbWOo8ICPp%2BO7B3aFb6easlozLP8sHJSPyYeDBAAo4mjx0yZSxxMy8rP8l%2BCPSTIY04vYjblv9yx0OJshMA268h0G7QPSJvRJ9mcjNgDBfTPxknBt9Yaq5aGvNQLbyir74qpR%2FI8OVPtX50lfQ9ZM8aiRemmHLK0Jd02RARLWSywQYOHshvIDoi8TJv8notAWBZ%2FT%2BGcPjLRkf4Mot3eaKKZofQ7rEm%2BV1QR8KdX%2FCjX9VacZ65y3e9p6tqudafhjlH0xLrAQ9KYN%2FB9o%2FTCwrZ1bWNub0QR54QImd2WDVjmgcmUiMXhpzE8z2CauqLVA0TvudFKZLZg3rYbXkNEFumLkzt3TM0eLGe%2FF0Fxk6bcCvW0wsWDgGE%2BINErOmgXFcuxlmwy9MkucQg74tF5RkOMK9y7nCQDP1qAkpgHIYEOBdHnRVqUrv7aqeGv10wDyVfk9bCZI3Su1nBFrFJ5VwRSWHGNoKoFMcRnFpdwtcD63IIsqvrdGUWQP0Mk9A8Bt1FfC2dLx4wE%2FLGwRRMFbfpnQyikPOyGBTO%2B2ybr2MFIDf247yu970eAs%3D",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "/**\n         * Get one course with every (many) available realted attribute\n         * \n         * query params:\n         * \n         * lang:  get results for a language code \"en,de,es,it\" (default de)\n         * display: mini/full, default mini - how results are displayed, mini means the result are optimized for typical use\n         * cat: include catory info (cat=1), default 0 (off)\n         * profile: send profile=0 to exclude profile info, default on\n         * contact: send contact=0 to exclude contact info, default on \n         * room: send room=0 to exclude room info, default on\n         * dates: single course dates, dates=1 to turn on / include, default 0/off\n         * user: include info about the current user related to course (default=1 ON)\n         * rating: include rating info about the current course (default=1 ON)\n         * \n         * probably its better to access single courses with uuid instead of id. (TODO)\n         */  "
+					},
+					"response": []
+				},
+				{
+					"name": "Test crypted with query params copy",
+					"request": {
+						"url": {
+							"raw": "http://soa.healthvision.de/test/proto1/public/api/?ec=dQ5heaNMlJFW5kCvpbTM4K7FyodmJDtHaXQb0tO5UuKI56mhLeMXXea9FN5tcMJWR6P341oNEXatNdT8P%2Bw%2F0w3ezwTmU%2Fv04mOpI6suC3MSYDm6bVcoMkUd4mjjfKeODJpe3eoULcIl00D243nhlWz%2FqnOBj8PkyW6w1srnR%2BhFcTBxpa4Z8oarzTF9ZTMF6BOFvkdXnGrDTvslLYMFSjG0sM1R6zQwA%2FQtAdgcGMZsLAxNCgxnuYlFVVwEC45zydMmmQY%2FDdabG3SLmMoOs10euY%2F5039gir7BEnKb3UDyVeCbmz61GiQI7yREyvsepq0%2FoUcg9kvDuV3VFcSsh8Kii%2FC%2BrwH6hYn%2Ff84ARe5UDOeIU5Ha4CuLNAgXoLVxKBSV%2B%2BMOLajiC0J5Qk8%2BpG%2FyecQC3gWefogNHh04JiYpTDALmmS9BN%2BctloGlDDq25mwa9%2BhOBqVyrWbm%2F8fu9zU1%2BhXG6Lm%2BSB9Zjv4JaLDBPhLUcedgCeiD4e6dyRgGE1hG5uy5oIl%2BlIRonlW25ofiEsRJL0HIYPoiy50fQqd%2FKz27T5HPZTToKEsz0zbYk6Cos5rfhtJVSSnEYLkrXy31oA%2FX9it%2Bclt0212KP8HLlGYHfUyN4aHM1H%2FbMSbHv5L%2BE5s5OFUAh44nYuids5wjobu1S6xfaD%2F9BQDHP4%3D",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"health",
+								"s3_1",
+								"public",
+								"api",
+								""
+							],
+							"query": [
+								{
+									"key": "ec",
+									"value": "dQ5heaNMlJFW5kCvpbTM4K7FyodmJDtHaXQb0tO5UuKI56mhLeMXXea9FN5tcMJWR6P341oNEXatNdT8P%2Bw%2F0w3ezwTmU%2Fv04mOpI6suC3MSYDm6bVcoMkUd4mjjfKeODJpe3eoULcIl00D243nhlWz%2FqnOBj8PkyW6w1srnR%2BhFcTBxpa4Z8oarzTF9ZTMF6BOFvkdXnGrDTvslLYMFSjG0sM1R6zQwA%2FQtAdgcGMZsLAxNCgxnuYlFVVwEC45zydMmmQY%2FDdabG3SLmMoOs10euY%2F5039gir7BEnKb3UDyVeCbmz61GiQI7yREyvsepq0%2FoUcg9kvDuV3VFcSsh8Kii%2FC%2BrwH6hYn%2Ff84ARe5UDOeIU5Ha4CuLNAgXoLVxKBSV%2B%2BMOLajiC0J5Qk8%2BpG%2FyecQC3gWefogNHh04JiYpTDALmmS9BN%2BctloGlDDq25mwa9%2BhOBqVyrWbm%2F8fu9zU1%2BhXG6Lm%2BSB9Zjv4JaLDBPhLUcedgCeiD4e6dyRgGE1hG5uy5oIl%2BlIRonlW25ofiEsRJL0HIYPoiy50fQqd%2FKz27T5HPZTToKEsz0zbYk6Cos5rfhtJVSSnEYLkrXy31oA%2FX9it%2Bclt0212KP8HLlGYHfUyN4aHM1H%2FbMSbHv5L%2BE5s5OFUAh44nYuids5wjobu1S6xfaD%2F9BQDHP4%3D",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "/**\n         * Get one course with every (many) available realted attribute\n         * \n         * query params:\n         * \n         * lang:  get results for a language code \"en,de,es,it\" (default de)\n         * display: mini/full, default mini - how results are displayed, mini means the result are optimized for typical use\n         * cat: include catory info (cat=1), default 0 (off)\n         * profile: send profile=0 to exclude profile info, default on\n         * contact: send contact=0 to exclude contact info, default on \n         * room: send room=0 to exclude room info, default on\n         * dates: single course dates, dates=1 to turn on / include, default 0/off\n         * user: include info about the current user related to course (default=1 ON)\n         * rating: include rating info about the current course (default=1 ON)\n         * \n         * probably its better to access single courses with uuid instead of id. (TODO)\n         */  "
+					},
+					"response": []
+				},
+				{
+					"name": "Test POST encrypted : Book Timeslot",
+					"request": {
+						"url": {
+							"raw": "http://soa.healthvision.de/test/proto1/public/api/?uaid=1&ec=oIxta%2Foj1dTMMbGYCGGCqsG1gtgY0uN%2F0J2Cl9iZ2gAqKfByhQsbZ8tehuGwP9Qsx%2FmdD2YxEQzT0SN%2Flz%2FXkio0JmR3epCkEunloQlNpXCNSB2Kep9sXxhhdmJtxBx%2Fn%2Fg%2Fhy48AgoXb6W18gsToMKrOp%2Bp2QCqLtfYxLFTu8nJ36bZPHYCXta%2BwOULRB5cY7PX%2FwA44qPGUgbnXmjC3NqkOh3dQhYtJ11N4S6pKt5Yr1xKhWs8Af4ZtYRJOg6wePgAE17uZ%2BXR8CH%2BlI85By7YYBitCN4g3PRZhJ2%2Ft2xdhVlI20Lnshx4j2VoK%2FfUMqyI2sY1q%2BORv3A6zEoaOPh%2BtOMxJ60MauB7BfA4JO6AdUHuzZ7wHl0wGfecq9qfagLEwaDjXzZV2XYcYhmtm4p3RReHzYC3u7dCIsk9anLBXnYWN56nq7VKcbIMlMLLH6KFRzZ6%2BjfAzjbXiylyG%2BdgEP5IOlTrTg%2F1aejwUurhtwpBJqJBbY6C9pqbXA3zrqM4en59rbbMPTmCG66nv2SS%2FEQYWYfLixkth44L93DK%2BftySkq83QknvhaALRjmiP5D1OlvSr06IiACz1dylB9xPhcypaonTLp%2FsV739SxEBxy10mjWHr0HOMg%2BHzcVZ3sLKMIjn5LZrrD870YZV5RXhctfN73m0uGB0hcuve4%3D",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"health",
+								"s3_1",
+								"public",
+								"api",
+								""
+							],
+							"query": [
+								{
+									"key": "uaid",
+									"value": "1",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "ec",
+									"value": "oIxta%2Foj1dTMMbGYCGGCqsG1gtgY0uN%2F0J2Cl9iZ2gAqKfByhQsbZ8tehuGwP9Qsx%2FmdD2YxEQzT0SN%2Flz%2FXkio0JmR3epCkEunloQlNpXCNSB2Kep9sXxhhdmJtxBx%2Fn%2Fg%2Fhy48AgoXb6W18gsToMKrOp%2Bp2QCqLtfYxLFTu8nJ36bZPHYCXta%2BwOULRB5cY7PX%2FwA44qPGUgbnXmjC3NqkOh3dQhYtJ11N4S6pKt5Yr1xKhWs8Af4ZtYRJOg6wePgAE17uZ%2BXR8CH%2BlI85By7YYBitCN4g3PRZhJ2%2Ft2xdhVlI20Lnshx4j2VoK%2FfUMqyI2sY1q%2BORv3A6zEoaOPh%2BtOMxJ60MauB7BfA4JO6AdUHuzZ7wHl0wGfecq9qfagLEwaDjXzZV2XYcYhmtm4p3RReHzYC3u7dCIsk9anLBXnYWN56nq7VKcbIMlMLLH6KFRzZ6%2BjfAzjbXiylyG%2BdgEP5IOlTrTg%2F1aejwUurhtwpBJqJBbY6C9pqbXA3zrqM4en59rbbMPTmCG66nv2SS%2FEQYWYfLixkth44L93DK%2BftySkq83QknvhaALRjmiP5D1OlvSr06IiACz1dylB9xPhcypaonTLp%2FsV739SxEBxy10mjWHr0HOMg%2BHzcVZ3sLKMIjn5LZrrD870YZV5RXhctfN73m0uGB0hcuve4%3D",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": "",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "text",
+									"value": "sehr bewegend",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "course_id",
+									"value": "1",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "rating",
+									"value": "3",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "user_id",
+									"value": "49",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"description": "/**\n    * returns free timeslots in a month\n    * public/api/profile/{PROFILE_ID}/calendar?month=-1\n    * params: month (int) : next month is 1, previous month = -1 , default = 0 (current month)\n    * \n    * RESULT: \n    * data: orderd list of timeslots (see result for further details)\n    * meta.days_with: list with days (1-31) with free slots\n    * meta.map: list with key day and ids of timeslots\n    * \n    * Screen: \"Offene Termine\", S22, H-courses-seminar-calender\n    */"
+					},
+					"response": []
+				},
+				{
+					"name": "Test POST encrypted : Cancel Timeslot copy",
+					"request": {
+						"url": {
+							"raw": "http://soa.healthvision.de/test/proto1/public/api/?uaid=1&ec=Mlrw%2FNg%2Fb9Ktur2pFSqyLBkTlgSnPrjj6yU004lvrYfTm9UH32YuMS7BWId9QcAwiVuQFm9KR7R%2F330ZZHL%2FpU4V9mmg6t9TFRtxfgtSuoP0uojCPR9w9mSuUU367da2V8odzz40qw%2Frod%2Foztl1pDMdqtNNu739R9nBD2OX3XPL6U34xYQYdhptidLl5HDzQ3WzBiCjf681Z5E0wpP2a1u5M4tO%2B4lZ3hkZXIpi%2FfCGHwnWs5QMQ94XyFevAG%2BPgVtJZK8g3DUN5uqDladXIuBbcBb%2F%2BuSAoKhXY2D7E7AnCuf2ULRWtglkwJN62JPLwEAvWelHkzO4kW9SunWeDiAjp%2BNScPcDMA9CDV3uKkSIBQ12D%2Bt%2FIMFVUM4gXzVQCcBvkWkWjjkXGTi6y3Vq5hpQqrBncMXxkp54Qhc3vdGJpRMNapkSZibk9unsuuexgDihwrtulY2PPX49739S4eiLDQFfPxThkJo6K0ZOFLkN05pgO%2FDtB7ihHW5RGr3Dh9cf1rVQVwT7R6n1lBCktqCtGOvyb3CVadAOJUbrtQKSC3CK2IOLQfCRjD%2BRMeUuAGv4w2PNn4%2BM4KSM90JcYmNoMcioYOTLA52cDz%2BI5bQrMY0cJYIi2t5mKqhdXWjdR2jOvoOppAktjjuQ4nOLGwW1YE6lu10OicHJYmlEHPQ%3D",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"health",
+								"s3_1",
+								"public",
+								"api",
+								""
+							],
+							"query": [
+								{
+									"key": "uaid",
+									"value": "1",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "ec",
+									"value": "Mlrw%2FNg%2Fb9Ktur2pFSqyLBkTlgSnPrjj6yU004lvrYfTm9UH32YuMS7BWId9QcAwiVuQFm9KR7R%2F330ZZHL%2FpU4V9mmg6t9TFRtxfgtSuoP0uojCPR9w9mSuUU367da2V8odzz40qw%2Frod%2Foztl1pDMdqtNNu739R9nBD2OX3XPL6U34xYQYdhptidLl5HDzQ3WzBiCjf681Z5E0wpP2a1u5M4tO%2B4lZ3hkZXIpi%2FfCGHwnWs5QMQ94XyFevAG%2BPgVtJZK8g3DUN5uqDladXIuBbcBb%2F%2BuSAoKhXY2D7E7AnCuf2ULRWtglkwJN62JPLwEAvWelHkzO4kW9SunWeDiAjp%2BNScPcDMA9CDV3uKkSIBQ12D%2Bt%2FIMFVUM4gXzVQCcBvkWkWjjkXGTi6y3Vq5hpQqrBncMXxkp54Qhc3vdGJpRMNapkSZibk9unsuuexgDihwrtulY2PPX49739S4eiLDQFfPxThkJo6K0ZOFLkN05pgO%2FDtB7ihHW5RGr3Dh9cf1rVQVwT7R6n1lBCktqCtGOvyb3CVadAOJUbrtQKSC3CK2IOLQfCRjD%2BRMeUuAGv4w2PNn4%2BM4KSM90JcYmNoMcioYOTLA52cDz%2BI5bQrMY0cJYIi2t5mKqhdXWjdR2jOvoOppAktjjuQ4nOLGwW1YE6lu10OicHJYmlEHPQ%3D",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": "",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "text",
+									"value": "sehr bewegend",
+									"type": "text"
+								},
+								{
+									"key": "course_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "rating",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "user_id",
+									"value": "49",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"description": "api/timeslot/167/cancel\n--> \nec=oIxta%2Foj1dTMMbGYCGGCqsG1gtgY0uN%2F0J2Cl9iZ2gAqKfByhQsbZ8tehuGwP9Qsx%2FmdD2YxEQzT0SN%2Flz%2FXkio0JmR3epCkEunloQlNpXCNSB2Kep9sXxhhdmJtxBx%2Fn%2Fg%2Fhy48AgoXb6W18gsToMKrOp%2Bp2QCqLtfYxLFTu8nJ36bZPHYCXta%2BwOULRB5cY7PX%2FwA44qPGUgbnXmjC3NqkOh3dQhYtJ11N4S6pKt5Yr1xKhWs8Af4ZtYRJOg6wePgAE17uZ%2BXR8CH%2BlI85By7YYBitCN4g3PRZhJ2%2Ft2xdhVlI20Lnshx4j2VoK%2FfUMqyI2sY1q%2BORv3A6zEoaOPh%2BtOMxJ60MauB7BfA4JO6AdUHuzZ7wHl0wGfecq9qfagLEwaDjXzZV2XYcYhmtm4p3RReHzYC3u7dCIsk9anLBXnYWN56nq7VKcbIMlMLLH6KFRzZ6%2BjfAzjbXiylyG%2BdgEP5IOlTrTg%2F1aejwUurhtwpBJqJBbY6C9pqbXA3zrqM4en59rbbMPTmCG66nv2SS%2FEQYWYfLixkth44L93DK%2BftySkq83QknvhaALRjmiP5D1OlvSr06IiACz1dylB9xPhcypaonTLp%2FsV739SxEBxy10mjWHr0HOMg%2BHzcVZ3sLKMIjn5LZrrD870YZV5RXhctfN73m0uGB0hcuve4%3D"
+					},
+					"response": []
+				},
+				{
+					"name": "Create Rating copy",
+					"request": {
+						"url": {
+							"raw": "http://soa.healthvision.de/test/proto1/public/?uaid=4&ec=B7kvr7Rgf0t38Da%2Bbk7UEbDvjEH8cFWgT8bDo%2F%2BPiQ%2FhHNEErI5cFRUPiwPenoPVoj99d2IAU2MBrBixI63Ws%2BNUNGuj1I7%2FKXVV%2BEH%2FxGtvAHHXqxmUUKPWkrfLQKysnck%2F3iOv2KI8s2NrGapLRRE%2FM68EjXiSwKpfAqxxgRJUXqx47MLVjXraJ%2Fr4Fz070eP%2Fp%2Fw4arLYQY2nsq3Msg66%2FPOf9djNRkUQ1aoLS5Cf4NQO7TPXPVtzaod5Z1IjSsOX3YhtqK6WBjc5XIAkjTCg98CHbRwI746lfrFkV8XFVOjxo4J5kvnOb257DdnHoUXb3sKI6qhBmjeF1hvdLQU4ySxAJ%2BEZrMAyZHGCxTCVNmBSZF%2BxhYylUM4K6ekLLHxWqeV2nu8oZyZKCPSlkwXmx0s3CtYGFuPBes50%2B76CkferxCr8Y83BuXl9wTJ5nzP0G3YSAQSLpuMM%2BmDXUFuHSq0KJmojgUZT86PbMLYd2ofyFc3QTxiuImxu7yNjUR%2BZNjHP6nTtra%2BDJ2QhzHjrYjb1JlXGnAiuYZkmw1GwkHdY2cjZFDWsfUsOLg4MP%2Bp4dFu7YqjnMnNUNCnG8SxEvV6ZjHqKYwuG7UCtdyUdmdlyYd%2B6rMplXJT%2FISyC0MFKZJBIzfOxtYeYf6y9449Utb0KjETobb2D6WNSnJs%3D",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"health",
+								"s3_1",
+								"public",
+								""
+							],
+							"query": [
+								{
+									"key": "uaid",
+									"value": "4",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "ec",
+									"value": "B7kvr7Rgf0t38Da%2Bbk7UEbDvjEH8cFWgT8bDo%2F%2BPiQ%2FhHNEErI5cFRUPiwPenoPVoj99d2IAU2MBrBixI63Ws%2BNUNGuj1I7%2FKXVV%2BEH%2FxGtvAHHXqxmUUKPWkrfLQKysnck%2F3iOv2KI8s2NrGapLRRE%2FM68EjXiSwKpfAqxxgRJUXqx47MLVjXraJ%2Fr4Fz070eP%2Fp%2Fw4arLYQY2nsq3Msg66%2FPOf9djNRkUQ1aoLS5Cf4NQO7TPXPVtzaod5Z1IjSsOX3YhtqK6WBjc5XIAkjTCg98CHbRwI746lfrFkV8XFVOjxo4J5kvnOb257DdnHoUXb3sKI6qhBmjeF1hvdLQU4ySxAJ%2BEZrMAyZHGCxTCVNmBSZF%2BxhYylUM4K6ekLLHxWqeV2nu8oZyZKCPSlkwXmx0s3CtYGFuPBes50%2B76CkferxCr8Y83BuXl9wTJ5nzP0G3YSAQSLpuMM%2BmDXUFuHSq0KJmojgUZT86PbMLYd2ofyFc3QTxiuImxu7yNjUR%2BZNjHP6nTtra%2BDJ2QhzHjrYjb1JlXGnAiuYZkmw1GwkHdY2cjZFDWsfUsOLg4MP%2Bp4dFu7YqjnMnNUNCnG8SxEvV6ZjHqKYwuG7UCtdyUdmdlyYd%2B6rMplXJT%2FISyC0MFKZJBIzfOxtYeYf6y9449Utb0KjETobb2D6WNSnJs%3D",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "ecp",
+									"value": "aIv7ntRKEMCXQZSXTzRd3xmXIGpD08bFzEnFa9%2BrGx5pOqkORNMqXYlDTiSeg7fmhaVxgXZQReZjudJciebBPyR7xsFQFzUhvxfeMLhyEt56f9yZWpOYC588U5tr60k0poY%2FgDqCEgKnQx2cYCRxxgAB6uJYk5Oc4JUiiHLy4iZMV5tR1kkfCcrBeaHpX395GLt%2BxKYb01suSVPozIYd3vsCZ4Qrd6MtasQMLCjLXGnQEhgK0zGAJDu1VAf8LmVlnHUyVKd8Ry%2FGUlGtoq%2BkbveDWTVonfW%2B3fNGVglSaB3R5ZrzmS%2BmXveQs%2B%2FlSx07ztJP2%2Fhf7ptf02PhpSHDPutycqto4utRPdte7C47AcXHWxsvp2gr3o96Tc6ufORzwguVWwLAYEBc0d7Jet9wjyW8R2epQNweueat0rS4MqKGFV0tN4SzUXCve2E5UeNi4veaosV%2F74t8%2F1J4BnuGS1xjgr7SLfZ2kgqPgz6Ks74LUbczbYFT3YI5ssIuD6mqW2gJnNYJDjsoHMa8lHKchfYHe%2FY0P%2BUqdrL1Ius9rD6G5XYmSJ%2BeMcYEyln2tzPtXOUgJu8ohAiNxbKF9O0wFhpUFbCk315c%2FShA0lwSeMxY6trVIEZp1XWap7elOxtSUdJQ6z91NCrZXs4LFy6OjRiyJec%2F7Ct49WYY9xhAZAA%3D",
+									"type": "text"
+								}
+							]
+						},
+						"description": "rating/create \n->\nec=B7kvr7Rgf0t38Da%2Bbk7UEbDvjEH8cFWgT8bDo%2F%2BPiQ%2FhHNEErI5cFRUPiwPenoPVoj99d2IAU2MBrBixI63Ws%2BNUNGuj1I7%2FKXVV%2BEH%2FxGtvAHHXqxmUUKPWkrfLQKysnck%2F3iOv2KI8s2NrGapLRRE%2FM68EjXiSwKpfAqxxgRJUXqx47MLVjXraJ%2Fr4Fz070eP%2Fp%2Fw4arLYQY2nsq3Msg66%2FPOf9djNRkUQ1aoLS5Cf4NQO7TPXPVtzaod5Z1IjSsOX3YhtqK6WBjc5XIAkjTCg98CHbRwI746lfrFkV8XFVOjxo4J5kvnOb257DdnHoUXb3sKI6qhBmjeF1hvdLQU4ySxAJ%2BEZrMAyZHGCxTCVNmBSZF%2BxhYylUM4K6ekLLHxWqeV2nu8oZyZKCPSlkwXmx0s3CtYGFuPBes50%2B76CkferxCr8Y83BuXl9wTJ5nzP0G3YSAQSLpuMM%2BmDXUFuHSq0KJmojgUZT86PbMLYd2ofyFc3QTxiuImxu7yNjUR%2BZNjHP6nTtra%2BDJ2QhzHjrYjb1JlXGnAiuYZkmw1GwkHdY2cjZFDWsfUsOLg4MP%2Bp4dFu7YqjnMnNUNCnG8SxEvV6ZjHqKYwuG7UCtdyUdmdlyYd%2B6rMplXJT%2FISyC0MFKZJBIzfOxtYeYf6y9449Utb0KjETobb2D6WNSnJs%3D\n\nPOST\n{\"text\":\"sehr bewegend\",\"course_id\":\"1\",\"rating\":\"2\"}\n->\necp=aIv7ntRKEMCXQZSXTzRd3xmXIGpD08bFzEnFa9%2BrGx5pOqkORNMqXYlDTiSeg7fmhaVxgXZQReZjudJciebBPyR7xsFQFzUhvxfeMLhyEt56f9yZWpOYC588U5tr60k0poY%2FgDqCEgKnQx2cYCRxxgAB6uJYk5Oc4JUiiHLy4iZMV5tR1kkfCcrBeaHpX395GLt%2BxKYb01suSVPozIYd3vsCZ4Qrd6MtasQMLCjLXGnQEhgK0zGAJDu1VAf8LmVlnHUyVKd8Ry%2FGUlGtoq%2BkbveDWTVonfW%2B3fNGVglSaB3R5ZrzmS%2BmXveQs%2B%2FlSx07ztJP2%2Fhf7ptf02PhpSHDPutycqto4utRPdte7C47AcXHWxsvp2gr3o96Tc6ufORzwguVWwLAYEBc0d7Jet9wjyW8R2epQNweueat0rS4MqKGFV0tN4SzUXCve2E5UeNi4veaosV%2F74t8%2F1J4BnuGS1xjgr7SLfZ2kgqPgz6Ks74LUbczbYFT3YI5ssIuD6mqW2gJnNYJDjsoHMa8lHKchfYHe%2FY0P%2BUqdrL1Ius9rD6G5XYmSJ%2BeMcYEyln2tzPtXOUgJu8ohAiNxbKF9O0wFhpUFbCk315c%2FShA0lwSeMxY6trVIEZp1XWap7elOxtSUdJQ6z91NCrZXs4LFy6OjRiyJec%2F7Ct49WYY9xhAZAA%3D"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "HELL0 & NEW TOKEN",
+			"description": "got to app/routes.php - Method Demotoken\nyou can set \nuser_id \nand \ngroup_id\nto create a new test token\ncopy printed token and use it in further requests\n\nyou migth switch to \"RAW\" Response in POSTMAN to see the Token",
+			"item": [
+				{
+					"name": "DEMO-TOKEN",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/demo_token",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": "got to app/routes.php - Method Demotoken\nyou can set \nuser_id \nand \ngroup_id\nto create a new test token\ncopy printed token and use it in further requests\n\nyou migth switch to \"RAW\" Response in POSTMAN to see the Token"
+					},
+					"response": []
+				},
+				{
+					"name": "HELLO",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": "welcome"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Kategorien",
+			"description": "",
+			"item": [
+				{
+					"name": "Category - One with / without courses",
+					"request": {
+						"url": {
+							"raw": "http://soa.healthvision.de/test/proto1/public/api/cats/1?include=course&data=mini",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"health",
+								"s3_1",
+								"public",
+								"api",
+								"cats",
+								"1"
+							],
+							"query": [
+								{
+									"key": "include",
+									"value": "course",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "data",
+									"value": "mini",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": " /**\n       * list of ALL cats with / without courses\n       * query params\n       * include: set to \"course\" for related courses, default 0\n       * order:asc,desc (default asc (Ascending default course order from 1 to x))\n       * data:  full (category with locale and resource)\n       *        mini (category with Title and full Image Path)\n       * lang:  get results for a language code \"en,de,es,it\" (default de)\n       * PUBLIC\n       */"
+					},
+					"response": []
+				},
+				{
+					"name": "Category All -  with / without Courses (Mini / Full)  ",
+					"request": {
+						"url": {
+							"raw": "http://soa.healthvision.de/test/proto1/public/api/cats/all?data=mini&order=desc&include=course",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"health",
+								"s3_1",
+								"public",
+								"api",
+								"cats",
+								"all"
+							],
+							"query": [
+								{
+									"key": "data",
+									"value": "mini",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "order",
+									"value": "desc",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "include",
+									"value": "course",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": " /**\n       * list of ALL cats with / without courses\n       * query params\n       * include: set to \"course\" for related courses, default 0\n       * order:asc,desc (default asc (Ascending default course order from 1 to x))\n       * data:  full (category with locale and resource)\n       *        mini (category with Title and full Image Path)\n       * lang:  get results for a language code \"en,de,es,it\" (default de)\n       * PUBLIC\n       */"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Medical-Doctor-Timeslot",
+			"description": "",
+			"item": [
+				{
+					"name": "Profiles By Type",
+					"request": {
+						"url": {
+							"raw": "http://soa.healthvision.de/test/proto1/public/api/profile/all?type=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"health",
+								"s3_1",
+								"public",
+								"api",
+								"profile",
+								"all"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "1",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "text",
+									"value": "sehr bewegend",
+									"type": "text"
+								},
+								{
+									"key": "course_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "rating",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "user_id",
+									"value": "49",
+									"type": "text"
+								}
+							]
+						},
+						"description": "Lists all Profiles (Trainers, Medicals, Coaches, etc)\nParam: type (int) \ncurrently we have (Demodata):\n1:trainer,2:doc/medical,3:coach/other"
+					},
+					"response": []
+				},
+				{
+					"name": "Timeslots of Profile",
+					"request": {
+						"url": {
+							"raw": "http://soa.healthvision.de/test/proto1/public/api/profile/1/calendar?month=-1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"health",
+								"s3_1",
+								"public",
+								"api",
+								"profile",
+								"1",
+								"calendar"
+							],
+							"query": [
+								{
+									"key": "month",
+									"value": "-1",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "text",
+									"value": "sehr bewegend",
+									"type": "text"
+								},
+								{
+									"key": "course_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "rating",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "user_id",
+									"value": "49",
+									"type": "text"
+								}
+							]
+						},
+						"description": "/**\n    * returns free timeslots in a month\n    * public/api/profile/{PROFILE_ID}/calendar?month=-1\n    * params: month (int) : next month is 1, previous month = -1 , default = 0 (current month)\n    * \n    * RESULT: \n    * data: orderd list of timeslots (see result for further details)\n    * meta.days_with: list with days (1-31) with free slots\n    * meta.map: list with key day and ids of timeslots\n    * \n    * Screen: \"Offene Termine\", S22, H-courses-seminar-calender\n    */"
+					},
+					"response": []
+				},
+				{
+					"name": "Courses of Profile",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/profile/1/courses",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "text",
+									"value": "sehr bewegend",
+									"type": "text"
+								},
+								{
+									"key": "course_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "rating",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "user_id",
+									"value": "49",
+									"type": "text"
+								}
+							]
+						},
+						"description": "/**\n      * get all courses of a profile \n      * public/api/profile/{profile_id}/courses\n      * \n      * param: lang (string) : de,en... default de\n      * \n      * returns a list with courses (missing \"data\" key)\n      * */"
+					},
+					"response": []
+				},
+				{
+					"name": "Timeslot book",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/timeslot/167/book",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "text",
+									"value": "sehr bewegend",
+									"type": "text"
+								},
+								{
+									"key": "course_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "rating",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "user_id",
+									"value": "49",
+									"type": "text"
+								}
+							]
+						},
+						"description": "/**\n    * returns free timeslots in a month\n    * public/api/profile/{PROFILE_ID}/calendar?month=-1\n    * params: month (int) : next month is 1, previous month = -1 , default = 0 (current month)\n    * \n    * RESULT: \n    * data: orderd list of timeslots (see result for further details)\n    * meta.days_with: list with days (1-31) with free slots\n    * meta.map: list with key day and ids of timeslots\n    * \n    * Screen: \"Offene Termine\", S22, H-courses-seminar-calender\n    */"
+					},
+					"response": []
+				},
+				{
+					"name": "Timeslot cancel",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/timeslot/31/cancel",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "text",
+									"value": "sehr bewegend",
+									"type": "text"
+								},
+								{
+									"key": "course_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "rating",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "user_id",
+									"value": "49",
+									"type": "text"
+								}
+							]
+						},
+						"description": "/**\n    * returns free timeslots in a month\n    * public/api/profile/{PROFILE_ID}/calendar?month=-1\n    * params: month (int) : next month is 1, previous month = -1 , default = 0 (current month)\n    * \n    * RESULT: \n    * data: orderd list of timeslots (see result for further details)\n    * meta.days_with: list with days (1-31) with free slots\n    * meta.map: list with key day and ids of timeslots\n    * \n    * Screen: \"Offene Termine\", S22, H-courses-seminar-calender\n    */"
+					},
+					"response": []
+				},
+				{
+					"name": "Schedule - Upcoming Appointments in X-Days copy",
+					"request": {
+						"url": {
+							"raw": "http://soa.healthvision.de/test/proto1/public/api/dashboard/schedule_appointments/?lang=en&days=10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"health",
+								"s3_1",
+								"public",
+								"api",
+								"dashboard",
+								"schedule_appointments",
+								""
+							],
+							"query": [
+								{
+									"key": "lang",
+									"value": "en",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "days",
+									"value": "10",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": " /**\n          * this returns upcoming course_dates (single courses) in a timerange (days)\n          * \n          * params\n          * days: default 3\n          * lang: default de\n          *\n          * Maybe we need additional params here like ->where(\"is_payed\",'=',1) or\n          * where(\"is_confirmed\",'=',1) \n          * this could easily be done\n         */"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "NEWWW: Course User Actions",
+			"description": "",
+			"item": [
+				{
+					"name": "toggle is_interested in Course",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/courses/1/toggleinterested",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "/**\n* toogle Remember Course\n* returns updated user_course state\n*/"
+					},
+					"response": []
+				},
+				{
+					"name": "rate course",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/courses/1/toggleinterested",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "/**\n* toogle Remember Course\n* returns updated user_course state\n*/"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Points",
+			"description": "",
+			"item": [
+				{
+					"name": "Get Rating of  Course copy",
+					"request": {
+						"url": {
+							"raw": "http://soa.healthvision.de/test/proto1/public/api/points/?course_id=3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"health",
+								"s3_1",
+								"public",
+								"api",
+								"points",
+								""
+							],
+							"query": [
+								{
+									"key": "course_id",
+									"value": "3",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "provide a valid and existing UUID of a Course\nor course_id \nuuid is first checked, if formally correct, but not existing it will return null"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Profiles",
+			"description": "",
+			"item": [
+				{
+					"name": "Categories with Courses LIst",
+					"request": {
+						"url": "http://185.10.195.66/test/hvaa2/public/api/cats/all/courses?data=mini&order=date",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "/**\n       * list of ALL items\n       * query params\n       * order_by: date, order (default order)\n       * order:asc,desc (default asc)\n       * data:  full (category with locale and resource)\n       *        mini (category with Title and full Image Path)\n       * lang:  get results for a language code \"en,de,es,it\" (default de)\n       * PUBLIC\n       * TODO: parent child courses not yet implemented\n       */"
+					},
+					"response": []
+				},
+				{
+					"name": "Profiles Get All",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/profiles/all/",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "text",
+									"value": "sehr bewegend",
+									"type": "text"
+								},
+								{
+									"key": "course_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "rating",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "user_id",
+									"value": "49",
+									"type": "text"
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Questionaire",
+			"description": "",
+			"item": [
+				{
+					"name": "Get Questionaire of a course",
+					"request": {
+						"url": {
+							"raw": "http://soa.healthvision.de/test/proto1/public/api/evaluation/get?course_id=2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"health",
+								"s3_1",
+								"public",
+								"api",
+								"evaluation",
+								"get"
+							],
+							"query": [
+								{
+									"key": "course_id",
+									"value": "2",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "/**\n   * Return questionaire and corresponding questions based on course id\n   * params:\n   * course id\n   * lang: de,en default de\n   */"
+					},
+					"response": []
+				},
+				{
+					"name": "Check User _ Course _ Questionaire",
+					"request": {
+						"url": {
+							"raw": "http://soa.healthvision.de/test/proto1/public/api/evaluation/check?course_id=2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"health",
+								"s3_1",
+								"public",
+								"api",
+								"evaluation",
+								"check"
+							],
+							"query": [
+								{
+									"key": "course_id",
+									"value": "2",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "/**\n   * Return questionaire and corresponding questions based on course id\n   * params:\n   * course id\n   * lang: de,en default de\n   */"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Rating",
+			"description": "",
+			"item": [
+				{
+					"name": "Get Rating of  Course",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/rating/get?course_id=1",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "provide a valid and existing UUID of a Course\nor course_id \nuuid is first checked, if formally correct, but not existing it will return null"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Rating (s)",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/rating/delete?user_id=2",
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "provide either existing rating_id \nor course_id (deletes all from course)\nor user_id (deletes all from user)\n\n::: For Testing only :::::\n:: to refill with test data run::::\n php cli.php down 20161228111824\n php cli.php up 20161228111824"
+					},
+					"response": []
+				},
+				{
+					"name": "Create Rating",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/rating/create",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "text",
+									"value": "sehr bewegend",
+									"type": "text"
+								},
+								{
+									"key": "course_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "rating",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "user_id",
+									"value": "49",
+									"type": "text"
+								}
+							]
+						},
+						"description": "* create rating of a course\n          * \n          * requires a user_id, which is not part of the POST but received from token\n          * \n          * POST\n          * course_id: a course id\n          * rating: Integer from 1-5 (..depending on scale, more possible but current stats will not return heigher values..)\n          * optional: text \n          * (as always post params must match table names !!!)\n          * \n         */"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Screen 10 - Dashboard",
+			"description": "",
+			"item": [
+				{
+					"name": "Schedule - Meine nächsten Termin - Upcoming Course in X-Days",
+					"request": {
+						"url": {
+							"raw": "http://soa.healthvision.de/test/proto1/public/api/dashboard/schedule/?lang=de&days=30",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"health",
+								"s3_1",
+								"public",
+								"api",
+								"dashboard",
+								"schedule",
+								""
+							],
+							"query": [
+								{
+									"key": "lang",
+									"value": "de",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "days",
+									"value": "30",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": " /**\n          * this returns upcoming course_dates (single courses) in a timerange (days)\n          * \n          * params\n          * days: default 3\n          * lang: default de\n          *\n          * Maybe we need additional params here like ->where(\"is_payed\",'=',1) or\n          * where(\"is_confirmed\",'=',1) \n          * this could easily be done\n         */"
+					},
+					"response": []
+				},
+				{
+					"name": "Messages - Unread Messages",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/dashboard/messages/?readstatus=0",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "\n /**\n  * get messages \n  * \n  * params\n  * readstatus: default = 0 (only unread messages), set to 1 for only read messages, to 2 for all\n  * use meta['count'] of response to get count\n */"
+					},
+					"response": []
+				},
+				{
+					"name": "Points - Meine Punkte",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/dashboard/points/",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": " /**\n          * Points and Open Ratings\n          * \n          * response should be descriptive enought\n          * params: no\n          * \n         */"
+					},
+					"response": []
+				},
+				{
+					"name": "Offene Bewertungen -- Courseinfo copy",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/dashboard/courseinfo/?is_not_rated=1",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": " /**\n       * get info about users courses info\n       * some params (like is_not_interested) or combinations ((like \"is_not_completed\" and \"upcoming\" AND is_) might not make sense, but for flexibility in different senarios we keep them\n       * \n       * params:\n       * all: set to 1 to get all of the following, default 0\n       * lang: language,default \"de\"\n       * by default all are of, so provide at least one, or \"all\"\n       * \"is_payed\" get courses user payed for, default 0,\n       * \"is_not_payed\"\n       * \"is_completed\"\n       * \"is_not_completed\"\n       * \"is_booked\"\n       * \"is_not_booked\"\n       * \"is_interested\"\n       * \"is_not_interested\"\n       * 'is_rated'\n       * 'is_not_rated'\n       * // by date, default OFF=0, provide all_dates=1 to turn all ON\n       * 'past' : past courses, default 0\n       * 'current': current current, default 0\n       * 'upcoming': upcoming courses, default 0\n       * \n       * to also get the actually visited courses add (Like on screen \"My Activities\")\n       * \"visited\": visited=1 \n       * \n       * todo: better output formating\n       */"
+					},
+					"response": []
+				},
+				{
+					"name": "Courseinfo copy",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/dashboard/courseinfo/?lang=de&is_rated=0&is_interested=0&past=0&all=0&all_dates=0&upcoming=1&is_payed=1",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": " /**\n       * get info about users courses info\n       * some params (like is_not_interested) or combinations ((like \"is_not_completed\" and \"upcoming\" AND is_) might not make sense, but for flexibility in different senarios we keep them\n       * \n       * params:\n       * all: set to 1 to get all of the following, default 0\n       * lang: language,default \"de\"\n       * by default all are of, so provide at least one, or \"all\"\n       * \"is_payed\" get courses user payed for, default 0,\n       * \"is_not_payed\"\n       * \"is_completed\"\n       * \"is_not_completed\"\n       * \"is_booked\"\n       * \"is_not_booked\"\n       * \"is_interested\"\n       * \"is_not_interested\"\n       * 'is_rated'\n       * 'is_not_rated'\n       * // by date, default OFF=0, provide all_dates=1 to turn all ON\n       * 'past' : past courses, default 0\n       * 'current': current current, default 0\n       * 'upcoming': upcoming courses, default 0\n       * \n       * to also get the actually visited courses add (Like on screen \"My Activities\")\n       * \"visited\": visited=1 \n       * \n       * todo: better output formating\n       */"
+					},
+					"response": []
+				},
+				{
+					"name": "Courseinfo copy copy",
+					"request": {
+						"url": {
+							"raw": "http://soa.healthvision.de/test/proto1/public/api/dashboard/courseinfo/?lang=en&all=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"health",
+								"s3_1",
+								"public",
+								"api",
+								"dashboard",
+								"courseinfo",
+								""
+							],
+							"query": [
+								{
+									"key": "lang",
+									"value": "en",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "all",
+									"value": "1",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": " /**\n       * get info about users courses info\n       * some params (like is_not_interested) or combinations ((like \"is_not_completed\" and \"upcoming\" AND is_) might not make sense, but for flexibility in different senarios we keep them\n       * \n       * params:\n       * all: set to 1 to get all of the following, default 0\n       * lang: language,default \"de\"\n       * by default all are of, so provide at least one, or \"all\"\n       * \"is_payed\" get courses user payed for, default 0,\n       * \"is_not_payed\"\n       * \"is_completed\"\n       * \"is_not_completed\"\n       * \"is_booked\"\n       * \"is_not_booked\"\n       * \"is_interested\"\n       * \"is_not_interested\"\n       * 'is_rated'\n       * 'is_not_rated'\n       * // by date, default OFF=0, provide all_dates=1 to turn all ON\n       * 'past' : past courses, default 0\n       * 'current': current current, default 0\n       * 'upcoming': upcoming courses, default 0\n       * \n       * to also get the actually visited courses add (Like on screen \"My Activities\")\n       * \"visited\": visited=1 \n       * \n       * todo: better output formating\n       */"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Screen 11 -Search",
+			"description": "http://soa.healthvision.de/test/proto1/public/api/courses/search\nhttp://185.10.195.66/test/hvaa_02/public/api/courses/search\ncurl --request GET \\\n  --url 'http://soa.healthvision.de/test/proto1/public/api/courses/search?search=temp&=&lang=en' \\\n  --header 'authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc' \\\n  --header 'content-type: application/json' \\\n  --cookie PHPSESSID=l4d8edfi6i91m3te9r2tdoii36 \\\n  --data '",
+			"item": [
+				{
+					"name": "Course - Search copy",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/courses/search?search=orient&lang=de",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "/**\n       * search in courses \n       * query params:\n       * search: (string) ,(search in title and description)\n       * order_by: date, order (default order) (TODO)\n       * order:asc,desc (default asc) (TODO)\n       * lang:  get results for a language code \"en,de,es,it\" (default de)\n       * PUBLIC\n       * TODO: searches only in course_locale NOT in course_date_locale yet\n       */\n       \n good search term (which give results):\n orient, multi"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Screen 12; Filter Courses",
+			"description": "",
+			"item": [
+				{
+					"name": "Course - Filter copy",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/courses/filter?lang=de&free=0&order=desc",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": " /**\n       * a list of courses with filter, filters are based on table course_type\n       * \n       * query params:\n       * free: relates to is_free, 0/1 default 0\n       * group: relates to is_group, default 1 \n       * is_special not yey\n       * \n       * order_by: date, order (default order) (orders categories)\n       * order:asc,desc (default asc)\n       * lang:  get results for a language code \"en,de,es,it\" (default de)\n       * \n       * PUBLIC\n       * \n       * TODO: connection to department not yet\n       * \n       * Result List contains Categories on the first level, in there are the courses matching filter criteria \n       */"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Screen 14 - Course Details",
+			"description": "for more info see here Folder Course And Courses -> Single Course",
+			"item": [
+				{
+					"name": "Single Course copy",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/courses/1?lang=de&display=full&cat=0&profile=0&dates=0&rating=0&user=1",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "/**\n         * Get one course with every (many) available realted attribute\n         * \n         * query params:\n         * \n         * lang:  get results for a language code \"en,de,es,it\" (default de)\n         * display: mini/full, default mini - how results are displayed, mini means the result are optimized for typical use\n         * cat: include catory info (cat=1), default 0 (off)\n         * profile: send profile=0 to exclude profile info, default on\n         * contact: send contact=0 to exclude contact info, default on \n         * room: send room=0 to exclude room info, default on\n         * dates: single course dates, dates=1 to turn on / include, default 0/off\n         * user: include info about the current user related to course (default=1 ON)\n         * rating: include rating info about the current course (default=1 ON)\n         * \n         * probably its better to access single courses with uuid instead of id. (TODO)\n         */  "
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Screen 19 - Meine Aktivitäten",
+			"description": "",
+			"item": [
+				{
+					"name": "Meine Aktivitäten - Courseinfo copy",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/dashboard/courseinfo/?lang=de&is_booked=1&is_interested=1",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "\ngenerated with params is_booked and is_interested\nmaybe we need one more field in course_attendee\n\n\n /**\n       * get info about users courses info\n       * some params (like is_not_interested) or combinations ((like \"is_not_completed\" and \"upcoming\" AND is_) might not make sense, but for flexibility in different senarios we keep them\n       * \n       * params:\n       * all: set to 1 to get all of the following, default 0\n       * lang: language,default \"de\"\n       * by default all are of, so provide at least one, or \"all\"\n       * \"is_payed\" get courses user payed for, default 0,\n       * \"is_not_payed\"\n       * \"is_completed\"\n       * \"is_not_completed\"\n       * \"is_booked\"\n       * \"is_not_booked\"\n       * \"is_interested\"\n       * \"is_not_interested\"\n       * 'is_rated'\n       * 'is_not_rated'\n       * // by date, default OFF=0, provide all_dates=1 to turn all ON\n       * 'past' : past courses, default 0\n       * 'current': current current, default 0\n       * 'upcoming': upcoming courses, default 0\n       * \n       * to also get the actually visited courses add (Like on screen \"My Activities\")\n       * \"visited\": visited=1 \n       * \n       * todo: better output formating\n       */"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Screen 20 - Meine Nachrichten",
+			"description": "",
+			"item": [
+				{
+					"name": "Meine Nachrichten - Copy of Messages (dashboard)",
+					"request": {
+						"url": {
+							"raw": "http://soa.healthvision.de/test/proto1/public/api/dashboard/messages/?readstatus=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"health",
+								"s3_1",
+								"public",
+								"api",
+								"dashboard",
+								"messages",
+								""
+							],
+							"query": [
+								{
+									"key": "readstatus",
+									"value": "1",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "\n /**\n  * get messages \n  * \n  * params\n  * readstatus: default = 0 (only unread messages), set to 1 for only read messages, to 2 for all\n  * use meta['count'] of response to get count\n */"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Screen 8 - Alle Kategorien",
+			"description": "",
+			"item": [
+				{
+					"name": "Category All - Mini",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/cats/all?data=mini",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "see Folder Kategorien here "
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Screen 9 - Angebote - Category with Courses",
+			"description": "wie Screen 8 \nURL http://soa.healthvision.de/test/proto1/public/api/cats/all/courses\nhttp://185.10.195.66/test/hvaa_02/public/api/cats/courses\n",
+			"item": [
+				{
+					"name": "Category All -  with Courses - Mini",
+					"request": {
+						"url": "http://soa.healthvision.de/test/proto1/public/api/cats/all?data=mini&include=course",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "       * list of ALL items\n       * query params\n       * order_by: date, order (default order)\n       * order:asc,desc (default asc)\n       * data:  full (category with locale and resource)\n       *        mini (category with Title and full Image Path)\n       * lang:  get results for a language code \"en,de,es,it\" (default de)\n       * PUBLIC\n       */\nAnm: \norderby updated_at not working since demodata has the same timestamp\n\nFull Category Output is not \"styled\", since i don\"t know whats needed"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

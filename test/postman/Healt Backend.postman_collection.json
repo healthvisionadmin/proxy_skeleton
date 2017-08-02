@@ -1,0 +1,295 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Healt Backend",
+		"_postman_id": "363eaaaa-06b7-7985-a451-61da8ca20212",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Course",
+			"description": "",
+			"item": [
+				{
+					"name": "Create Course",
+					"request": {
+						"url": "http://localhost/health/s3_1/public/backend/courses/create",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "uuid",
+									"value": "sdiq922dskas9",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "cost",
+									"value": "100",
+									"type": "text"
+								},
+								{
+									"key": "num_of_dates",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "num_of_seat",
+									"value": "10",
+									"type": "text"
+								},
+								{
+									"key": "end_date",
+									"value": "1498650968",
+									"type": "text"
+								},
+								{
+									"key": "start_date",
+									"value": "1498650968",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "schedule_text",
+									"value": "Jeden Do. um 14:45",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "regular",
+									"value": "1",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "points",
+									"value": "100",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "price",
+									"value": "100",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "city_filter_text",
+									"value": "LU",
+									"description": "",
+									"type": "text"
+								}
+							]
+						},
+						"description": "/**\n    * returns free timeslots in a month\n    * public/api/profile/{PROFILE_ID}/calendar?month=-1\n    * params: month (int) : next month is 1, previous month = -1 , default = 0 (current month)\n    * \n    * RESULT: \n    * data: orderd list of timeslots (see result for further details)\n    * meta.days_with: list with days (1-31) with free slots\n    * meta.map: list with key day and ids of timeslots\n    * \n    * Screen: \"Offene Termine\", S22, H-courses-seminar-calender\n    */"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Course",
+					"request": {
+						"url": "http://localhost/health/s3_1/public/backend/courses/delete",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "105",
+									"description": "",
+									"type": "text"
+								}
+							]
+						},
+						"description": "/**\n    * returns free timeslots in a month\n    * public/api/profile/{PROFILE_ID}/calendar?month=-1\n    * params: month (int) : next month is 1, previous month = -1 , default = 0 (current month)\n    * \n    * RESULT: \n    * data: orderd list of timeslots (see result for further details)\n    * meta.days_with: list with days (1-31) with free slots\n    * meta.map: list with key day and ids of timeslots\n    * \n    * Screen: \"Offene Termine\", S22, H-courses-seminar-calender\n    */"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Course HARD",
+					"request": {
+						"url": "http://localhost/health/s3_1/public/backend/courses/delete_hard",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "104",
+									"description": "",
+									"type": "text"
+								}
+							]
+						},
+						"description": "/**\n    * returns free timeslots in a month\n    * public/api/profile/{PROFILE_ID}/calendar?month=-1\n    * params: month (int) : next month is 1, previous month = -1 , default = 0 (current month)\n    * \n    * RESULT: \n    * data: orderd list of timeslots (see result for further details)\n    * meta.days_with: list with days (1-31) with free slots\n    * meta.map: list with key day and ids of timeslots\n    * \n    * Screen: \"Offene Termine\", S22, H-courses-seminar-calender\n    */"
+					},
+					"response": []
+				},
+				{
+					"name": "Restore Course",
+					"request": {
+						"url": "http://localhost/health/s3_1/public/backend/courses/restore",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "105",
+									"description": "",
+									"type": "text"
+								}
+							]
+						},
+						"description": "/**\n    * returns free timeslots in a month\n    * public/api/profile/{PROFILE_ID}/calendar?month=-1\n    * params: month (int) : next month is 1, previous month = -1 , default = 0 (current month)\n    * \n    * RESULT: \n    * data: orderd list of timeslots (see result for further details)\n    * meta.days_with: list with days (1-31) with free slots\n    * meta.map: list with key day and ids of timeslots\n    * \n    * Screen: \"Offene Termine\", S22, H-courses-seminar-calender\n    */"
+					},
+					"response": []
+				},
+				{
+					"name": "Create Course FILEMAKER FIELDNAMEs",
+					"request": {
+						"url": "http://localhost/health/s3_1/public/backend/courses/create",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE0ODEzOTAxNjksImp0aSI6IktqQT0iLCJpc3MiOiJsb2NhbGhvc3QiLCJuYmYiOjE0ODEzOTAxNjksImV4cCI6MjEwMzQ3MDE2OSwiZGF0YSI6eyJncm91cF9pZCI6IjEiLCJ1c2VyX2lkIjoiMSJ9fQ.8H4JtIi9ZHgRPc0GHKEYYn9BltgcZvHbsxu0h5xYqrc",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "UUID",
+									"value": "sdiq922dskas9",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "privateFee",
+									"value": "100",
+									"type": "text"
+								},
+								{
+									"key": "numberOfSessions",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "maximumSeats",
+									"value": "10",
+									"type": "text"
+								},
+								{
+									"key": "dateEnd",
+									"value": "1498650968",
+									"type": "text"
+								},
+								{
+									"key": "dateStart",
+									"value": "1498650968",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "points",
+									"value": "100",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "isWaitingList",
+									"value": "1",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "waitingListMaximum",
+									"value": "6",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "sessionWeekday",
+									"value": "3",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "sessionTimeStart",
+									"value": "12:00",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "sessionDuration",
+									"value": "60",
+									"description": "",
+									"type": "text"
+								}
+							]
+						},
+						"description": "/**\n    * returns free timeslots in a month\n    * public/api/profile/{PROFILE_ID}/calendar?month=-1\n    * params: month (int) : next month is 1, previous month = -1 , default = 0 (current month)\n    * \n    * RESULT: \n    * data: orderd list of timeslots (see result for further details)\n    * meta.days_with: list with days (1-31) with free slots\n    * meta.map: list with key day and ids of timeslots\n    * \n    * Screen: \"Offene Termine\", S22, H-courses-seminar-calender\n    */"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

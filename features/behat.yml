@@ -1,0 +1,48 @@
+# default:
+#   paths:
+#     # features: "./features"
+#     # bootstrap: "./features/bootstrap"
+#   suites:
+#       default:
+#         contexts:
+#             #  - FeatureContext
+#               # - FeatureContextSlim
+#               # - MigrationsContext
+#               # - RestContext
+#
+#
+#
+#
+#
+#  formatters:
+#pretty:
+#      paths: true     # Display path where step is defined.
+#      snippets: true  # Display example snippets for missing steps.
+#      multiline: false # Display multiline arguments.
+default:
+
+  suites:
+        migration:
+            # paths:    [ %paths.base%/larslo ]
+            contexts: [ MigrationsContext ]
+        database:
+            # paths:    [ %paths.base%/larslo ]
+            # contexts: [ DatabaseContext ]
+            paths:    [ %paths.base%/features ]
+            contexts:
+                - DatabaseContext:
+                    parameters: 
+                        db_settings: health_test.php
+                - HTTPGuzzleContext
+                    parameters:
+                        db_settings: health_test.php
+
+        # doctor_endpoints:
+        #     # paths:    [ %paths.base%/larslo ]
+        #     contexts: [ DoctorContext ]
+        # profile_endpoints:
+        #     # paths:    [ %paths.base%/larslo ]
+        #     contexts: [ ProfileContext ]
+        # course:
+        #     # paths:    [ %paths.base%/larslo ]
+        #     contexts: [ ProfileContext ]
