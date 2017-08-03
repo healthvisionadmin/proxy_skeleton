@@ -2,6 +2,9 @@
 namespace App\Action\userService;
 
 use App\Action\BaseController;
+use App\Models\User;
+use App\Models\Id;
+use App\Models\Email;
 
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Psr\Http\Message\ResponseInterface as Response;
@@ -69,7 +72,7 @@ class UserController extends BaseController
         if ($this->validator->isValid()) {
            
         	/* Save data in users table */
-	    	$user = $this->container->get('Model\User');
+	    	$user = new User();
 
 	    	$user->nameFirst       =  $nameFirst;
 	    	$user->nameLast        =  $nameLast;
@@ -83,7 +86,7 @@ class UserController extends BaseController
 	    	//print_r($user);die;
 
 	    	/* Save data in id table */
-	    	$id = $this->container->get('Model\Id');
+	    	$id = new Id();
 	    	$id = $id->firstOrNew(['userID' => $user->userID ]);
 
 	    	$id->userID                  =   $user->userID;
@@ -96,7 +99,7 @@ class UserController extends BaseController
 
 	    	/* Insert user emails into email table */
 
-	    	$Email = $this->container->get('Model\Email');
+	    	$Email = new Email();
 
 	    	if(is_array($emails)){
 

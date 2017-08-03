@@ -8,6 +8,8 @@ use Psr\Http\Message\ResponseInterface as Response;
 
 use Respect\Validation\Validator as V;
 
+use App\Models\Email;
+
 class InitialisationController extends BaseController
 {
 
@@ -36,9 +38,9 @@ class InitialisationController extends BaseController
         	$email = $request->getParam('email');
            
         	/* Email table model instance */
-	    	$Email = $this->container->get('Model\Email');
+	    	
 
-            $Email = $Email->where('address', $email)->with('user')->first();
+            $Email = Email::where('address', $email)->with('user')->first();
 
             $this->data['salt'] = $Email->user->salt;
 

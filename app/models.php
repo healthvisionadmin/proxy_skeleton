@@ -3,7 +3,7 @@
 # Factories Models
 # -----------------------------------------------------------------------------
 
-$container['Model\User'] = function ($container) {
+/*$container['Model\User'] = function ($container) {
     return new App\Models\User;
 };
 
@@ -21,4 +21,4 @@ $container['Model\Phone'] = function ($container) {
 
 $container['Model\Image'] = function ($container) {
     return new App\Models\Image;
-};
+};*/
