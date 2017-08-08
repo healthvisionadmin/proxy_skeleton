@@ -28,4 +28,10 @@ class Email extends Model
 	public function user(){
     	return $this->belongsTo('App\Models\User','userID','userID');
     }
+
+    public function id(){
+    	return $this->belongsTo('App\Models\Id','userID','userID');
+    }
+
+
 }

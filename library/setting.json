@@ -1,0 +1,25 @@
+{
+	"setting": {
+		"version": 1497602957,
+		"server": [
+			{
+				"id": "application",
+				"url": "soa.healthvision.de",
+				"key": ""
+			},
+			{
+				"id": "image",
+				"url": "proxy.healthvision.de",
+				"key": "12345"
+			},
+			{
+				"id": "proxy",
+				"url": "proxy.healthvision.de",
+				"key": ""
+			}
+		],
+		"languages": {
+			"name": "german"
+		}
+	}
+}

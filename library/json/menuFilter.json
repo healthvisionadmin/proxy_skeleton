@@ -1,0 +1,42 @@
+{"menu": {
+	"version":1497599247,
+	"language":"german",
+    "items": [
+		{
+			"number": 1,
+		    "text": "Einzelangebote",
+		    "value": true, 
+		    "sourceCode": "<js sourceCode to excecute upon selection>"
+		},
+		{
+			"number": 2,
+		    "text": "Gruppenangebote",
+		    "value": true, 
+		    "sourceCode": "<js sourceCode to excecute upon selection>"
+		},
+		{
+			"number": 3,
+		    "text": "Ohne Eigenanteil",
+		    "value": false, 
+		    "sourceCode": "<js sourceCode to excecute upon selection>"
+		},
+		{
+			"number": 4,
+		    "text": "Angebote in LU",
+		    "value": true, 
+		    "sourceCode": "<js sourceCode to excecute upon selection>"
+		},
+		{
+			"number": 5,
+		    "text": "Angebote in WI",
+		    "value": true, 
+		    "sourceCode": "<js sourceCode to excecute upon selection>"
+		},
+		{
+			"number": 6,
+		    "text": "Aussendienst",
+		    "value": false, 
+		    "sourceCode": "<js sourceCode to excecute upon selection>"
+		},
+	]	
+ }

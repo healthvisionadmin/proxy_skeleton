@@ -1,0 +1,84 @@
+{"menu": {
+	"version":1497594656,
+	"language":"german",
+    "items": [
+		{
+			"number": 1.1,
+		    "text": "QR-Scannen",
+		    "icon": "http://proxy.healthvision.de/image/icon/ID_572_ic_qrscan_white_32px.svg", 
+		    "sourceCode": "<js sourceCode to excecute upon selection>"
+		},
+		{
+			"number": 1.2,
+		    "text": "QR-Anzeigen",
+		    "icon": "http://proxy.healthvision.de/image/icon/ID_523_ic_qrcode_white_32px.svg", 
+		    "sourceCode": "<js sourceCode to excecute upon selection>"
+		},
+		{
+			"number": 2,
+		    "text": "---", 
+		    "icon": "", 
+		    "sourceCode": ""
+		},
+		{
+			"number": 3,
+		    "text": "Angebotsübersicht", 
+		    "icon": "", 
+		    "sourceCode": "<js sourceCode to excecute upon selection>"
+		},
+		{
+			"number": 4,
+		    "text": "Dashboard", 
+		    "icon": "", 
+		    "sourceCode": "<sourceCode to excecute upon selection>"
+		},
+		{
+			"number": 5,
+		    "text": "---", 
+		    "icon": "", 
+		    "sourceCode": ""
+		},
+		{
+			"number": 6,
+		    "text": "Meine Aktivitäten", 
+		    "icon": "", 
+		    "sourceCode": "<sourceCode to excecute upon selection>"
+		},
+		{
+			"number": 7,
+		    "text": "Meine Nachrichten", 
+		    "icon": "", 
+		    "sourceCode": "<sourceCode to excecute upon selection>"
+		},
+		{
+			"number": 7,
+		    "text": "Meine Einstellungen", 
+		    "icon": "", 
+		    "sourceCode": "<sourceCode to excecute upon selection>"
+		},
+		{
+			"number": 8,
+		    "text": "Meine Punkte", 
+		    "icon": "", 
+		    "sourceCode": "<sourceCode to excecute upon selection>"
+		},
+		{
+			"number": 9,
+		    "text": "---", 
+		    "icon": "", 
+		    "sourceCode": ""
+		},
+		{
+			"number": 10.1,
+		    "text": "Über die App und Feedback", 
+		    "icon": "", 
+		    "sourceCode": "<sourceCode to excecute upon selection>"
+		},
+		{
+			"number": 10.2,
+		    "text": "", 
+		    "icon": "http://proxy.healthvision.de/image/icon/ID_549_ic_information_white_24px.svg", 
+		    "sourceCode": "<sourceCode to excecute upon selection>"
+		}
+	]	
+ }

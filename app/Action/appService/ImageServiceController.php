@@ -8,17 +8,18 @@ use Psr\Http\Message\ResponseInterface as Response;
 
 use Respect\Validation\Validator as V;
 
+use App\Models\Image;
+
 class ImageServiceController extends BaseController
 {
 
-    private $model;
-
+   
     public function __construct($container)
     {
         parent::__construct($container);
     }
 
-    public function getImage(Request $request, Response $response, $args)
+    public function getImageById(Request $request, Response $response, $args)
     {
 
     	$this->validator->validate($request, [
@@ -36,11 +37,15 @@ class ImageServiceController extends BaseController
         	$image_id = $request->getParam('image_id');
            
         	/* Image table model instance */
-	    	$Image = $this->container->get('Model\Image');
+            //$Image = $this->container->get('Model\Image');
+	    	$Image = Image::where('imageID', $image_id)->first();
 
-	    	
+          
+	    	$path = PATH_ROOT . "../library/image/upload/". $Image->path;
+            $type = pathinfo($path, PATHINFO_EXTENSION);
+            $file = file_get_contents($path);
 
-           	return $this->ok($response, $this->data, 200);
+           	return $response->withHeader('Content-Type', 'image/'.$type)->write($file);
         }
 
         return $this->validationErrors($response);

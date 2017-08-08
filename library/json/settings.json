@@ -1,0 +1,42 @@
+{
+	"setting": {
+		"version": "2004-12-23 00:00:00.000",
+		"server": [{
+				"id": "soa",
+				"url": "soa.healthvision.de",
+				"uuid": "3b22f968-bcac-1505-fe6d-d5133da439bf",
+				"sharedKey": ""
+
+			},
+			{
+				"id": "KRA",
+				"url": "key.healthvision.de",
+				"uuid": "3b22f968-bcac-1505-fe6d-d5133da439bf",
+				"sharedKey": ""
+
+			},
+			{
+				"id": "proxy",
+				"url": "proxy.healthvision.de",
+				"uuid": "3b22f968-bcac-1505-fe6d-d5133da439bf",
+				"sharedKey": ""
+
+			},
+			{
+				"id": "image",
+				"url": "image.healthvision.de",
+				"uuid": "3b22f968-bcac-1505-fe6d-d5133da439bf",
+				"sharedKey": "1234567890"
+			},
+			{
+				"id": "app",
+				"url": "app.healthvision.de",
+				"uuid": "3b22f968-bcac-1505-fe6d-d5133da439bf",
+				"sharedKey": "1234567890"
+			}
+		],
+		"languages": {
+			"name": "german"
+		}
+	}
+}
